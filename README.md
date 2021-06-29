@@ -9,6 +9,8 @@
 |&#9744;|twitterのタイムラインから他人がいいねしたツイートを消し飛ばすchrome拡張機能|そのまんま|HTML/CSS,JavaScript,Chrome拡張|2021/6/25|
 |&#9744;|太鼓の達人エミュレーターの作成||Unity,C#|2021/6/25|
 |&#9744;|NEUTRINOのためのmusicXMLエディタ||electron|2021/6/29|
+|&#9744;|タブでまとめられたりタブの構成をプリセットで保存できたりするエクスプローラー||electron|2021/6/29|
+|&#9744;|Aviutlの拡張機能マネージャ||electron|2021/6/29|
 
 # 作っているものリスト/List of things I'm working on
 

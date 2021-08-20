@@ -1,4 +1,31 @@
-# ほぼ完成/Almost completed
+# メインプロダクト/main product
+
+## UEC school department select helper(UEC_SDH)
+
+電気通信大学の学部、学科を学びたい内容を選択することによりお勧めするSPAサイトです
+vueに慣れるためにvueをがっつり使いまくりました
+
+|使用言語|主要使用ライブラリ/フレームワーク|ver|
+|:--|:--|:--|
+|HTML/CSS,JavaScript|vue.js,vuetify,vue cli||
+
+## Color changer on twitter
+
+twitterの「フォロー」「フォロー中」のボタンを色を変える**Chrome拡張機能**です
+
+|使用言語|主要使用ライブラリ/フレームワーク|ver|
+|:--|:--|:--|
+|JavaScript|なし||
+
+## Local memo
+
+作者がlocal strageの練習に作った、local storageにtxtデータを保存できるエディターです
+ファイルの作成、削除、別名保存に対応しています
+JQueryについて調べていたら、「JQueryは古い」という記述を見つけ、なら代替の何かがあるはず！と調べたけっか**vue**というものを見つけたので、一部にvueが使われています
+
+|使用言語|主要使用ライブラリ/フレームワーク|ver|
+|:--|:--|:--|
+|HTML/CSS,JavaScript|vue.js,bulma||
 
 ## Minecraft Damage Calc Web
 
@@ -6,7 +33,7 @@ minecraftのダメージ計算をすることができる
 
 |使用言語|主要使用ライブラリ/フレームワーク|ver|
 |:--|:--|:--|
-|HTML/CSS,JavaScript|||
+|HTML/CSS,JavaScript|なし||
 
 ## Const Word Search
 
@@ -42,7 +69,7 @@ minecraftのリソースパックにあるホットバーにショートカッ�
 
 |使用言語|主要使用ライブラリ/フレームワーク|ver|
 |:--|:--|:--|
-|HTML/CSS,JavaScript|electron,pug,bootstrap,JQuery||
+|HTML/CSS,JavaScript|electron,pug,bootstrap,JQuery,sharp||
 
 ## NHS Rep Scheduler
 
@@ -58,7 +85,7 @@ N予備校のレポートスケジューラー。自動生成機能があると�
 |:--|:--|:--|:--|:--|
 |&#9744;|スマホ音ゲーの作成||Unity,C#|2020/9/19|
 |&#9744;|テトリスの作成||Unity,C#|2020/9/19|
-|&#9744;|マインスイーパーをC言語で作ってみたい||Console,C|2020/11/22|
+|&#x2611;|マインスイーパーをC言語で作ってみたい||Console,C|2020/11/22|
 |&#9744;|チャットツール統一ソフト|チャットツールの改行と送信に使うキーを統一するアプリ|未定(C#)|2021/3/15|
 |&#9744;|twitterのタイムラインから他人がいいねしたツイートを消し飛ばすchrome拡張機能|そのまんま|HTML/CSS,JavaScript,Chrome拡張|2021/6/25|
 |&#9744;|太鼓の達人エミュレーターの作成||Unity,C#|2021/6/25|

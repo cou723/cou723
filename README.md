@@ -1,5 +1,31 @@
 # メインプロダクト/main product
 
+## Minecraft Widgets Gen
+
+minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力する。設定によっては元の画像が消えてしまうので注意。ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。対応minecraftバージョンは1.16.5のみです
+
+|使用言語|主要使用ライブラリ/フレームワーク|ver|
+|:--|:--|:--|
+|HTML/CSS,JavaScript|electron,pug,bootstrap,JQuery,sharp||
+
+## CLogger
+
+C言語Logger。
+
+出力レベルを設定できる。
+
+|使用言語|主要使用ライブラリ/フレームワーク|ver|
+|:--|:--|:--|
+|C|||
+
+## printArray
+
+C言語でprintfデバッグをするときに配列を出力するC言語ライブラリ。
+
+|使用言語|主要使用ライブラリ/フレームワーク|ver|
+|:--|:--|:--|
+|C|||
+
 ## UEC school department select helper(UEC_SDH)
 
 電気通信大学の学部、学科を学びたい内容を選択することによりお勧めするSPAサイトです
@@ -43,7 +69,6 @@ minecraftのダメージ計算をすることができる
 |:--|:--|:--|
 |HTML/CSS,JavaScript|bootstrap,JQuery||
 
-
 ## Minecraft Auto Backup
 
 minecraft JEのセーブデータを初回設定（すごく楽）をすれば自動でバックアップをする
@@ -61,15 +86,6 @@ minecraft JEのセーブデータを初回設定（すごく楽）をすれば�
 |使用言語|主要使用ライブラリ/フレームワーク|ver|
 |:--|:--|:--|
 |JavaScript|||
-
-## Minecraft Widgets Gen
-
-minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力する。設定によっては元の画像が消えてしまうので注意。ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。対応minecraftバージョンは1.16.5のみです
-
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|HTML/CSS,JavaScript|electron,pug,bootstrap,JQuery,sharp||
 
 ## NHS Rep Scheduler
 

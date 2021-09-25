@@ -1,14 +1,14 @@
 # メインプロダクト/main product
 
-## Minecraft Widgets Gen
+## [Minecraft Widgets Gen](https://github.com/Cou01000111/MinecraftWidgetsGen)
 
-minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力する。設定によっては元の画像が消えてしまうので注意。ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。対応minecraftバージョンは1.16.5のみです
+minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力するデスクトップアプリケーションです。設定によっては元の画像が消えてしまうので注意。ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。対応minecraftバージョンは1.16.5のみです
 
 |使用言語|主要使用ライブラリ/フレームワーク|ver|
 |:--|:--|:--|
 |HTML/CSS,JavaScript|electron,pug,bootstrap,JQuery,sharp||
 
-## CLogger
+## [CLogger](https://github.com/Cou01000111/CLogger)
 
 C言語Logger。
 
@@ -18,7 +18,7 @@ C言語Logger。
 |:--|:--|:--|
 |C|||
 
-## printArray
+## [printArray](https://github.com/Cou01000111/printArray)
 
 C言語でprintfデバッグをするときに配列を出力するC言語ライブラリ。
 
@@ -26,7 +26,15 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 |:--|:--|:--|
 |C|||
 
-## UEC school department select helper(UEC_SDH)
+## [マインスイーパー](https://github.com/Cou01000111/minesweeper)
+
+ANSI C製のマインスイーパー。標準ライブラリにある関数のみを使っている。
+
+|使用言語|主要使用ライブラリ/フレームワーク|ver|
+|:--|:--|:--|
+|C|||
+
+## [UEC school department select helper(UEC_SDH)](https://github.com/Cou01000111/uec-school-department-select-helper)
 
 電気通信大学の学部、学科を学びたい内容を選択することによりお勧めするSPAサイトです
 vueに慣れるためにvueをがっつり使いまくりました
@@ -35,7 +43,7 @@ vueに慣れるためにvueをがっつり使いまくりました
 |:--|:--|:--|
 |HTML/CSS,JavaScript|vue.js,vuetify,vue cli||
 
-## Color changer on twitter
+## [Color changer on twitter](https://github.com/Cou01000111/ColorChangerOnTwitter)
 
 twitterの「フォロー」「フォロー中」のボタンを色を変える**Chrome拡張機能**です
 
@@ -43,7 +51,7 @@ twitterの「フォロー」「フォロー中」のボタンを色を変える*
 |:--|:--|:--|
 |JavaScript|なし||
 
-## Local memo
+## [Local memo](https://github.com/Cou01000111/localMemo)
 
 作者がlocal strageの練習に作った、local storageにtxtデータを保存できるエディターです
 ファイルの作成、削除、別名保存に対応しています
@@ -53,7 +61,7 @@ JQueryについて調べていたら、「JQueryは古い」という記述を�
 |:--|:--|:--|
 |HTML/CSS,JavaScript|vue.js,bulma||
 
-## Minecraft Damage Calc Web
+## [Minecraft Damage Calc Web](https://github.com/Cou01000111/MinecraftDamageCalcWeb)
 
 minecraftのダメージ計算をすることができる
 
@@ -61,7 +69,7 @@ minecraftのダメージ計算をすることができる
 |:--|:--|:--|
 |HTML/CSS,JavaScript|なし||
 
-## Const Word Search
+## [Const Word Search](https://github.com/Cou01000111/ConstWordSearch)
 
 よく頭につける単語を自動入力して検索してくれる。たとえばよく「C# List」「C# 変数宣言」「C# for文」とよく検索する人はC#を登録することによって後半の単語（List 変数宣言 for文）のみを入力すればよくなる
 
@@ -69,7 +77,7 @@ minecraftのダメージ計算をすることができる
 |:--|:--|:--|
 |HTML/CSS,JavaScript|bootstrap,JQuery||
 
-## Minecraft Auto Backup
+## [Minecraft Auto Backup](https://github.com/Cou01000111/MinecraftAutoBackup)
 
 minecraft JEのセーブデータを初回設定（すごく楽）をすれば自動でバックアップをする
 
@@ -81,7 +89,7 @@ minecraft JEのセーブデータを初回設定（すごく楽）をすれば�
 
 ## Co Numbereting Months
 
-名前の由来を忘れた。GitHubの日付を数字だけ（Aprilとかを4）にする。でも最近思ったんだけど、月を英語で書くって日付と混同しないからもしかして便利・・・？
+GitHubの日付を数字だけ（Aprilとかを4）にする。月を数字で書かず単語で書くほうが月と日の混同を避けるという観点から良いと考えるようになったので、開発凍結。
 
 |使用言語|主要使用ライブラリ/フレームワーク|ver|
 |:--|:--|:--|

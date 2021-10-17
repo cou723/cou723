@@ -2,15 +2,12 @@
 
 ## [Minecraft Widgets Gen](https://github.com/Cou01000111/MinecraftWidgetsGen)
 
-minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力するデスクトップアプリケーションです。設定によっては元の画像が消えてしまうので注意。<br>
+minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力するデスクトップアプリケーションです。<br>設定によっては元の画像が消えてしまうので注意。<br>
 ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。<br>今のところ対応minecraftバージョンは1.13以降のみです
 
 ## [CLogger](https://github.com/Cou01000111/CLogger)
 
-C言語Logger。
-
-出力レベルを設定できるC言語用のLogger。
-要修正箇所あり。
+C言語Logger。出力レベルを設定できるC言語用のLogger。<br>要修正箇所あり。
 
 ## [printArray](https://github.com/Cou01000111/printArray)
 
@@ -36,11 +33,7 @@ twitterの「フォロー」「フォロー中」のボタンを色を変える*
 
 ## [Minecraft Damage Calc Web](https://github.com/Cou01000111/MinecraftDamageCalcWeb)
 
-minecraftのダメージ計算をすることができる
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|HTML/CSS,JavaScript|なし||
+minecraftのダメージ計算をすることができるwebサイト。
 
 ## [Const Word Search](https://github.com/Cou01000111/ConstWordSearch)
 

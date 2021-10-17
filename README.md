@@ -11,6 +11,8 @@ ANSI C製のマインスイーパー。標準ライブラリにある関数の�
 
 ## [UEC school department select helper(UEC_SDH)](https://github.com/Cou01000111/uec-school-department-select-helper)
 
+https://cou723.github.io/uec-school-department-select-helper
+
 電気通信大学の学部、学科を学びたい内容を選択することによりお勧めするwebサイト。
 
 ## [Color changer on twitter](https://github.com/Cou01000111/ColorChangerOnTwitter)
@@ -18,6 +20,8 @@ ANSI C製のマインスイーパー。標準ライブラリにある関数の�
 twitterの「フォロー」「フォロー中」のボタンを色を変える**Chrome拡張機能**
 
 ## [Local memo](https://github.com/Cou01000111/localMemo)
+
+https://cou723.github.io/localMemo
 
 作者がlocal strageの練習に作った、local storageにtxtデータを保存できるエディターです。
 ファイルの作成、削除、別名保存に対応しています。
@@ -27,6 +31,8 @@ twitterの「フォロー」「フォロー中」のボタンを色を変える*
 minecraftのダメージ計算をすることができるwebサイト。
 
 ## [Const Word Search](https://github.com/Cou01000111/ConstWordSearch)
+
+https://cou723.github.io/ConstWordSearch
 
 よく頭につける単語を自動入力して検索してくれる。たとえばよく「C# List」「C# 変数宣言」「C# for文」とよく検索する人はC#を登録することによって後半の単語（List 変数宣言 for文）のみを入力すればよくなる
 

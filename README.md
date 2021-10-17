@@ -2,64 +2,37 @@
 
 ## [Minecraft Widgets Gen](https://github.com/Cou01000111/MinecraftWidgetsGen)
 
-minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力するデスクトップアプリケーションです。設定によっては元の画像が消えてしまうので注意。ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。対応minecraftバージョンは1.16.5のみです
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|HTML/CSS,JavaScript|electron,pug,bootstrap,JQuery,sharp||
+minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力するデスクトップアプリケーションです。設定によっては元の画像が消えてしまうので注意。<br>
+ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。<br>今のところ対応minecraftバージョンは1.13以降のみです
 
 ## [CLogger](https://github.com/Cou01000111/CLogger)
 
 C言語Logger。
 
-出力レベルを設定できる。
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|C|||
+出力レベルを設定できるC言語用のLogger。
+要修正箇所あり。
 
 ## [printArray](https://github.com/Cou01000111/printArray)
 
 C言語でprintfデバッグをするときに配列を出力するC言語ライブラリ。
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|C|||
+要修正箇所あり。
 
 ## [マインスイーパー](https://github.com/Cou01000111/minesweeper)
 
 ANSI C製のマインスイーパー。標準ライブラリにある関数のみを使っている。
 
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|C|||
-
 ## [UEC school department select helper(UEC_SDH)](https://github.com/Cou01000111/uec-school-department-select-helper)
 
-電気通信大学の学部、学科を学びたい内容を選択することによりお勧めするSPAサイトです
-vueに慣れるためにvueをがっつり使いまくりました
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|HTML/CSS,JavaScript|vue.js,vuetify,vue cli||
+電気通信大学の学部、学科を学びたい内容を選択することによりお勧めするwebサイト。
 
 ## [Color changer on twitter](https://github.com/Cou01000111/ColorChangerOnTwitter)
 
-twitterの「フォロー」「フォロー中」のボタンを色を変える**Chrome拡張機能**です
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|JavaScript|なし||
+twitterの「フォロー」「フォロー中」のボタンを色を変える**Chrome拡張機能**
 
 ## [Local memo](https://github.com/Cou01000111/localMemo)
 
-作者がlocal strageの練習に作った、local storageにtxtデータを保存できるエディターです
-ファイルの作成、削除、別名保存に対応しています
-JQueryについて調べていたら、「JQueryは古い」という記述を見つけ、なら代替の何かがあるはず！と調べたけっか**vue**というものを見つけたので、一部にvueが使われています
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|HTML/CSS,JavaScript|vue.js,bulma||
+作者がlocal strageの練習に作った、local storageにtxtデータを保存できるエディターです。
+ファイルの作成、削除、別名保存に対応しています。
 
 ## [Minecraft Damage Calc Web](https://github.com/Cou01000111/MinecraftDamageCalcWeb)
 
@@ -73,17 +46,9 @@ minecraftのダメージ計算をすることができる
 
 よく頭につける単語を自動入力して検索してくれる。たとえばよく「C# List」「C# 変数宣言」「C# for文」とよく検索する人はC#を登録することによって後半の単語（List 変数宣言 for文）のみを入力すればよくなる
 
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|HTML/CSS,JavaScript|bootstrap,JQuery||
-
 ## [Minecraft Auto Backup](https://github.com/Cou01000111/MinecraftAutoBackup)
 
 minecraft JEのセーブデータを初回設定（すごく楽）をすれば自動でバックアップをする
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|C#|.NET Framework||
 
 # 開発中/under development
 
@@ -91,17 +56,9 @@ minecraft JEのセーブデータを初回設定（すごく楽）をすれば�
 
 GitHubの日付を数字だけ（Aprilとかを4）にする。月を数字で書かず単語で書くほうが月と日の混同を避けるという観点から良いと考えるようになったので、開発凍結。
 
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|JavaScript|||
-
 ## NHS Rep Scheduler
 
 N予備校のレポートスケジューラー。自動生成機能があるというかそっちが目玉機能
-
-|使用言語|主要使用ライブラリ/フレームワーク|ver|
-|:--|:--|:--|
-|HTML/CSS,JavaScript,TypeScript|未定|
 
 # 作りたいものリスト/List of things I want to make
 

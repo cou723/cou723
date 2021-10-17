@@ -5,15 +5,6 @@
 minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力するデスクトップアプリケーションです。<br>設定によっては元の画像が消えてしまうので注意。<br>
 ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。<br>今のところ対応minecraftバージョンは1.13以降のみです
 
-## [CLogger](https://github.com/Cou01000111/CLogger)
-
-C言語Logger。出力レベルを設定できるC言語用のLogger。<br>要修正箇所あり。
-
-## [printArray](https://github.com/Cou01000111/printArray)
-
-C言語でprintfデバッグをするときに配列を出力するC言語ライブラリ。
-要修正箇所あり。
-
 ## [マインスイーパー](https://github.com/Cou01000111/minesweeper)
 
 ANSI C製のマインスイーパー。標準ライブラリにある関数のみを使っている。
@@ -52,6 +43,15 @@ GitHubの日付を数字だけ（Aprilとかを4）にする。月を数字で�
 ## NHS Rep Scheduler
 
 N予備校のレポートスケジューラー。自動生成機能があるというかそっちが目玉機能
+
+## [CLogger](https://github.com/Cou01000111/CLogger)
+
+C言語Logger。出力レベルを設定できるC言語用のLogger。<br>要修正箇所あり。
+
+## [printArray](https://github.com/Cou01000111/printArray)
+
+C言語でprintfデバッグをするときに配列を出力するC言語ライブラリ。
+要修正箇所あり。
 
 # 作りたいものリスト/List of things I want to make
 

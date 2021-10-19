@@ -1,6 +1,6 @@
 # メインプロダクト/main product
 
-## [Minecraft Widgets Gen](https://github.com/Cou01000111/MinecraftWidgetsGen)
+## [Minecraft Texted Hotbar Gen](https://github.com/Cou01000111/MinecraftWidgetsGen)
 
 minecraftのリソースパックにあるホットバーにショートカットキーを付与して出力するデスクトップアプリケーションです。<br>設定によっては元の画像が消えてしまうので注意。<br>
 ホットバーのキー配列はゲームディレクトリにある設定ファイルを参照しているので、ホットバーのキーがおかしいときは別のゲームディレクトリを参照してみてください。<br>今のところ対応minecraftバージョンは1.13以降のみです

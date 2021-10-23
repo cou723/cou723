@@ -72,5 +72,12 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 |&#9744;|タブでまとめられたりタブの構成をプリセットで保存できたりするエクスプローラー||electron|2021/6/29|
 |&#9744;|Aviutlの拡張機能マネージャ||electron|2021/6/29|
 
+# 触りたい技術
+- React
+- Vue3 Composition API
+- SMACSS
+- SCSS/SASS
+- OpenGL
+
 
 

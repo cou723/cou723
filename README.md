@@ -79,5 +79,6 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 - SCSS/SASS
 - OpenGL
 - Vue.ts + electron
+- JQuery
 
 

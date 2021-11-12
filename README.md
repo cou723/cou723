@@ -83,4 +83,6 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 - JQueryUI
 - python
 
-
+# 慣れたい技術
+- docker
+- docker-compose

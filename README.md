@@ -84,6 +84,7 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 - JQueryUI(aiノベリスとのサイトがこれで作られてて見た目良かったから)
 - python
 - Gatsby(mdからサイトが作れる！？おもしろそう！！)
+- primer(GitHubな感じのCSSフレームワーク)
 
 # 慣れたい技術
 - docker

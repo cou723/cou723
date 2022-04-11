@@ -86,6 +86,7 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 - Gatsby(mdからサイトが作れる！？おもしろそう！！)
 - primer(GitHubな感じのCSSフレームワーク)
 - RustでWebAssemblyを書く
+- tauri
 
 # 慣れたい技術
 - docker

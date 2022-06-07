@@ -87,6 +87,7 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 - primer(GitHubな感じのCSSフレームワーク)
 - RustでWebAssemblyを書く
 - tauri
+- vite
 
 # 慣れたい技術
 - docker

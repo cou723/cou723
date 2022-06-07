@@ -42,14 +42,6 @@ minecraft JEのセーブデータを初回設定（すごく楽）をすれば�
 
 # 開発中/under development
 
-## Co Numbereting Months
-
-GitHubの日付を数字だけ（Aprilとかを4）にする。月を数字で書かず単語で書くほうが月と日の混同を避けるという観点から良いと考えるようになったので、開発凍結。
-
-## NHS Rep Scheduler
-
-N予備校のレポートスケジューラー。自動生成機能があるというかそっちが目玉機能
-
 ## [CLogger](https://github.com/Cou01000111/CLogger)
 
 C言語Logger。出力レベルを設定できるC言語用のLogger。<br>要修正箇所あり。

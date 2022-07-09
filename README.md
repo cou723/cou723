@@ -81,6 +81,8 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 - RustでWebAssemblyを書く
 - tauri
 - vite
+- bun.js
+- zig
 
 # 慣れたい技術
 - docker

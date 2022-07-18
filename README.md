@@ -83,6 +83,7 @@ C言語でprintfデバッグをするときに配列を出力するC言語ライ
 - vite
 - bun.js
 - zig
+- Nuxt3
 
 # 慣れたい技術
 - docker

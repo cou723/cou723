@@ -14,10 +14,13 @@
 # end
 alias cd~="cd /mnt/c/Users/Cou/"
 alias ga="git add"
-alias gic="git commit"
+alias ga.="git add ."
+alias gicm="git commit -m"
 alias gpsh="git push"
 alias gpl="git pull"
 alias norm="norminette"
+alias witch="which"
 
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH="/home/cou/.local/bin:$PATH"

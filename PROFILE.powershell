@@ -1,0 +1,13 @@
+Set-Alias dk docker
+Set-Alias dc docker-compose
+Set-Alias ex explorer.exe
+function gicm($commit_message) {
+    git commit -m $commit_message
+}
+
+function ga. {
+    git add .
+}
+function gpsh {
+    git push
+}

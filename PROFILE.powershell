@@ -11,3 +11,15 @@ function ga. {
 function gpsh {
     git push
 }
+function gpl {
+    git pull
+}
+function gc($checkout) {
+    git checkout $checkout
+}
+function gb($to) {
+    git branch $to
+}
+function gm($from) {
+    git marge $from
+}

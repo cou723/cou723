@@ -39,5 +39,6 @@ sudo apt install -y git python3-pip
 sudo apt-get install -y build-essential clang-format diffutils python3-pip binutils-avr gcc-avr avr-libc  gcc-arm-none-eabi libnewlib-arm-none-eabi avrdude dfu-programmer dfu-util teensy-loader-cli libhidapi-hidraw0 libusb-dev
 sudo apt-get install -y doxygen
 sudo apt install -y xclip
+curl -sS https://starship.rs/install.sh | sh
 
-echo "exec fish" >> ~/.bashrc
+echo "eval \"$(starship init zsh)\"" >> ~/.zshrc

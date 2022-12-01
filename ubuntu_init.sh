@@ -39,6 +39,11 @@ sudo apt install -y git python3-pip
 sudo apt-get install -y build-essential clang-format diffutils python3-pip binutils-avr gcc-avr avr-libc  gcc-arm-none-eabi libnewlib-arm-none-eabi avrdude dfu-programmer dfu-util teensy-loader-cli libhidapi-hidraw0 libusb-dev
 sudo apt-get install -y doxygen
 sudo apt install -y xclip
-curl -sS https://starship.rs/install.sh | sh
 
-echo "eval \"$(starship init zsh)\"" >> ~/.zshrc
+# gh
+type -p curl >/dev/null || sudo apt install curl -y
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y

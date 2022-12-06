@@ -1,6 +1,6 @@
 <p align="left">
   <a href="https://github.com/cou723/cou723/">
-    <img src="https://komarev.com/ghpvc/?style=for-the-badge&username=cou723" alt="cou723" />
+    <img src="https://komarev.com/ghpvc/?username=cou723&style=for-the-badge" alt="cou723" />
   </a>
   <a href="http://qiita.com/cou_C">
     <img height="20" src="https://qiita-badge.apiapi.app/s/cou_C/posts.svg" />

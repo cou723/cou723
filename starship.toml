@@ -1,0 +1,103 @@
+add_newline = false
+
+format = "in $directory$all"
+
+[character]
+success_symbol = "[>](bold green)"
+error_symbol = "[x](bold red)"
+vicmd_symbol = "[<](bold green)"
+
+[aws]
+symbol = "  "
+
+[buf]
+symbol = " "
+
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+read_only = '[🔒]'
+home_symbol = "🏠"
+truncate_to_repo = true
+truncation_length = 3
+truncation_symbol = ".."
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+rebase = '[🧱 REBASING](bold yellow)'
+merge = '[🥣 MERGING](bold blue)'
+revert = '[🪀 REVERTING](bold purple)'
+cherry_pick = '[🍒 PICKING](bold red)'
+bisect = '[🗡️ BISECTING](bold white)'
+
+[git_status]
+conflicted = "⚔️"
+diverged = "🌵|⬆️${ahead_count}|⬇️{behind_count}"
+ahead = "⬆️${count}"
+behind = "⬇️${count}"
+up_to_date = "✅"
+untracked = "🐾"
+modified = "📝"
+stashed = "🗃️"
+staged = '[📦\($count\)](green)'
+renamed = "👅"
+deleted = "🗑️"
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
+
+[python]
+symbol = " "
+
+[spack]
+symbol = "🅢 "
+
+[rust]
+symbol = " "

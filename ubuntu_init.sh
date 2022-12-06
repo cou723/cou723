@@ -49,3 +49,6 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt install gh -y
 
 git clone https://github.com/scopatz/nanorc.git ~/.nano
+
+
+curl -sS https://starship.rs/install.sh | sh

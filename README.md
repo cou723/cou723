@@ -8,8 +8,7 @@
   <a href="https://zenn.dev/cou_kamiya/scraps"><img src="https://zenn.badge.nikaera.com/s/cou_kamiya/scraps?style=flat" alt="cou_kamiya scraps" /></a>
 </p>
 
-[![Cou's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=cou723&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
-[![Cou's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=cou723&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+[![Cou's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=cou723&show_icons=true&theme=dark&bg_color=2e3440](https://github.com/anuraghazra/github-readme-stats)
 
 [![](https://raw.githubusercontent.com/cou723/cou723/main/profile-summary-card-output/nord_dark/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 [![](https://raw.githubusercontent.com/cou723/cou723/main/profile-summary-card-output/nord_dark/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/cou723/cou723/main/profile-summary-card-output/nord_dark/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)

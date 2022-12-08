@@ -38,3 +38,5 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 git clone https://github.com/scopatz/nanorc.git ~/.nano
 
 curl -sS https://starship.rs/install.sh | sh
+
+# Hackgen NFを表示用フォントにすることを忘れずに

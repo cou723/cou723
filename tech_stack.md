@@ -1,5 +1,5 @@
 # My tech stacks(lang, framework, library)
-太字:個人製作経験あり
+**太字**:個人製作に使用経験経験あり
 ## Pro
 ## 何もわからない
 - **c**
@@ -34,14 +34,19 @@
 
 # My tech stacks(tool)
 ## 日常的に使っている
-- shell script
+- shell script(unix tools)
 - make
 - valgrind
 - pnpm
 - ubuntu
+- volta
+- git
+- github
+- shell(fish)
 ## 使用経験あり
 - yarn
 - npm
 - docker
 - docker-compose
+- vite
 ## 使用を検討している

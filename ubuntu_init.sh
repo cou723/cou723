@@ -2,6 +2,8 @@
 sudo apt-get -y -qq install -y ubuntu-wsl
 sudo apt update
 sudo apt-get update
+# rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # c lang
 sudo apt install -y build-essential
 sudo apt install -y clang gdb cmake valgrind clang-format
@@ -10,8 +12,9 @@ sudo apt install -y libreadline-dev
 sudo apt-get install -y libtool-bin
 sudo apt install -y libtinfo-dev
 # utils
-sudo apt-get install -y curl fonts-powerline xclip exa zip unzip zsh athena-jot graphviz doxygen
+sudo apt-get install -y curl fonts-powerline xclip zip unzip zsh athena-jot graphviz doxygen
 sudo apt install nkf
+cargo install exa
 # python
 sudo apt install -y python3
 sudo apt install -y python3-pip

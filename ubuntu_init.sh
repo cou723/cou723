@@ -12,7 +12,7 @@ sudo apt install -y libreadline-dev
 sudo apt-get install -y libtool-bin
 sudo apt install -y libtinfo-dev
 # utils
-sudo apt-get install -y curl fonts-powerline xclip zip unzip zsh athena-jot graphviz doxygen
+sudo apt install -y curl fonts-powerline xclip zip unzip zsh athena-jot graphviz doxygen fish
 sudo apt install nkf
 cargo install exa
 # python
@@ -40,3 +40,5 @@ git clone https://github.com/scopatz/nanorc.git ~/.nano
 curl -sS https://starship.rs/install.sh | sh
 
 # Hackgen NFを表示用フォントにすることを忘れずに
+
+echo "exec fish" >> ~/.bashrc

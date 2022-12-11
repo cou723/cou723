@@ -1,103 +1,110 @@
 add_newline = false
 
-format = "in $directory$all"
+[directory]
+format = "[$path](underline #f57800)[$read_only]($read_only_style) "
+truncation_length = 3
+home_symbol = "~"
+read_only_style = "bold red"
 
 [character]
-success_symbol = "[>](bold green)"
-error_symbol = "[x](bold red)"
-vicmd_symbol = "[<](bold green)"
+success_symbol = "[➜ ](bold green)"
+error_symbol = "[✗ ](bold red)"
 
-[aws]
-symbol = "  "
-
-[buf]
-symbol = " "
-
-[c]
-symbol = " "
-
-[conda]
-symbol = " "
-
-[dart]
-symbol = " "
-
-[directory]
-format = "[$path]($style)[$read_only]($read_only_style) "
-read_only = '[🔒]'
-home_symbol = "🏠"
-truncate_to_repo = true
-truncation_length = 3
-truncation_symbol = ".."
-
-[docker_context]
-symbol = " "
-
-[elixir]
-symbol = " "
-
-[elm]
-symbol = " "
+[username]
+format = "[$user](bold blue)[ @ ](red)"
+disabled = false
+show_always = true
 
 [git_branch]
-symbol = " "
+symbol = "git "
 
-[git_state]
-format = '\([$state( $progress_current/$progress_total)]($style)\) '
-rebase = '[🧱 REBASING](bold yellow)'
-merge = '[🥣 MERGING](bold blue)'
-revert = '[🪀 REVERTING](bold purple)'
-cherry_pick = '[🍒 PICKING](bold red)'
-bisect = '[🗡️ BISECTING](bold white)'
+[cmd_duration]
+min_time = 100
+format = " [took](bold yellow) [$duration](bold green)"
 
-[git_status]
-conflicted = "⚔️"
-diverged = "🌵|⬆️${ahead_count}|⬇️{behind_count}"
-ahead = "⬆️${count}"
-behind = "⬇️${count}"
-up_to_date = "✅"
-untracked = "🐾"
-modified = "📝"
-stashed = "🗃️"
-staged = '[📦\($count\)](green)'
-renamed = "👅"
-deleted = "🗑️"
+[aws]
+symbol = "aws "
+
+[conda]
+symbol = "conda "
+
+[crystal]
+symbol = "crystal "
+
+[cmake]
+symbol = "cmake "
+
+[dart]
+symbol = "dart "
+
+[deno]
+symbol = "deno "
+
+[dotnet]
+symbol = ".NET "
+
+
+[docker_context]
+symbol = "docker "
+
+[elixir]
+symbol = "elixir "
+
+[elm]
+symbol = "elm "
 
 [golang]
-symbol = " "
-
-[haskell]
-symbol = " "
+symbol = "go "
 
 [hg_branch]
-symbol = " "
+symbol = "hg "
 
 [java]
-symbol = " "
+symbol = "java "
 
 [julia]
-symbol = " "
+symbol = "julia "
 
-[memory_usage]
-symbol = " "
-
-[nim]
-symbol = " "
-
-[nix_shell]
-symbol = " "
+[kotlin]
+symbol = "kotlin "
 
 [nodejs]
-symbol = " "
+symbol = "nodejs "
+
+[nim]
+symbol = "nim "
+
+[nix_shell]
+symbol = "nix_shell "
+
+[ocaml]
+symbol = "ocaml "
 
 [package]
-symbol = " "
+disabled = false
+symbol = "package "
+
+[perl]
+symbol = "perl "
+
+[php]
+symbol = "php "
+
+[purescript]
+symbol = "purescript "
 
 [python]
-symbol = " "
+symbol = "python "
+python_binary = "python3"
 
-[spack]
-symbol = "🅢 "
+[ruby]
+symbol = "ruby "
 
 [rust]
-symbol = " "
+symbol = "rust "
+
+[scala]
+symbol = "scala "
+
+[swift]
+symbol = "swift "

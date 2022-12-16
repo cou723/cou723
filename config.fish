@@ -9,6 +9,7 @@ alias cd~="cd /mnt/c/Users/Cou/"
 alias norm="norminette"
 alias witch="which"
 alias jan='LANG=ja_JP.utf8 man'
+alias py="python3"
 
 # git
 alias ga="git add"
@@ -33,5 +34,8 @@ export PATH="/home/cou/.local/bin:$PATH"
 export MANPATH="/mnt/c/Users/Cou/dev/_42/so_long/mlx_linux/man":(manpath)
 export PNPM_HOME="/home/cou/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
+
+# keybinds
+bind \cn backward-kill-path-component
 
 starship init fish | source

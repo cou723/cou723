@@ -9,7 +9,8 @@ alias cd~="cd /mnt/c/Users/Cou/"
 alias norm="norminette"
 alias witch="which"
 alias jan='LANG=ja_JP.utf8 man'
-alias py="python3"
+alias fishconfig="code ~/.config/fish/config.fish"
+alias starconfig="code ~/.config/starship.toml"
 
 # git
 alias ga="git add"
@@ -22,11 +23,18 @@ alias gc.="git checkout ."
 alias gb="git branch"
 alias gm="git merge"
 alias gd="git diff"
+alias gl="git log"
+alias gcl="git clone"
 
 # npm
 alias n="npm"
 alias nr="npm run"
 alias pi="pnpm install"
+
+# python
+alias py="python3"
+alias penv="python3 -m venv venv"
+alias pact=". venv/bin/activate.fish"
 
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"

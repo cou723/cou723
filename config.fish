@@ -36,6 +36,11 @@ alias py="python3"
 alias penv="python3 -m venv venv"
 alias pact=". venv/bin/activate.fish"
 
+# github
+alias ghil="gh issue list"
+alias ghi="gh issue"
+alias ghic="gh issue create"
+
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="/home/cou/.local/bin:$PATH"

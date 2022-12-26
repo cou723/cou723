@@ -13,6 +13,7 @@
 - **vue.js(v2)**
 - **pug**
 - **node**
+- **python**
 ## 触ったことはある
 - python
 - **nuxt.js(v2)**
@@ -39,6 +40,8 @@
 - valgrind
 - pnpm
 - ubuntu
+- pyenv
+- venv
 - volta
 - git
 - github

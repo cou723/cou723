@@ -5,7 +5,9 @@ alias lt='exa --tree --icons --git'
 alias ltl='exa --tree --long --icons --git --level=2'
 
 # util
-alias cd~="cd /mnt/c/Users/Cou/"
+alias cd~="cd /mnt/c/Users/coura/"
+alias cddocs="cd /mnt/c/Users/coura/Documents/"
+alias cddwn="cd /mnt/c/Users/coura/Downloads/"
 alias norm="norminette"
 alias witch="which"
 alias jan='LANG=ja_JP.utf8 man'
@@ -44,7 +46,6 @@ alias ghic="gh issue create"
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="/home/cou/.local/bin:$PATH"
-export MANPATH="/mnt/c/Users/Cou/dev/_42/so_long/mlx_linux/man":(manpath)
 export PNPM_HOME="/home/cou/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 

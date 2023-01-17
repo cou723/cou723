@@ -5,25 +5,24 @@
 - **c**
 - **javascript**
 - **html**
+- **typescript**
 ## 完全に理解した
 - **c#**
 - **.net**
 - **rust**
-- **typescript**
 - **vue.js(v2)**
 - **pug**
 - **node**
 - **python**
+- **next.js**
 ## 触ったことはある
-- python
 - **nuxt.js(v2)**
 - **css**
-- react
+- **react**
 - **electron(v12)**
 - php
 - deno
 ## これからやりたい
-- next.js
 - SMACSS
 - SCSS/SASS
 - OpenGL
@@ -32,6 +31,7 @@
 - primer(GitHubな感じのCSSフレームワーク)
 - wasm(Rust)
 - tauri
+- t3 stacks
 
 # My tech stacks(tool)
 ## 日常的に使っている
@@ -43,6 +43,7 @@
 - pyenv
 - venv
 - volta
+- node
 - git
 - github
 - shell(fish)

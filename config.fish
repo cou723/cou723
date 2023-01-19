@@ -44,7 +44,6 @@ alias ghic="gh issue create"
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="/home/cou/.local/bin:$PATH"
-export MANPATH="/mnt/c/Users/Cou/dev/_42/so_long/mlx_linux/man":(manpath)
 export PNPM_HOME="/home/cou/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 

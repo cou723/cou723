@@ -5,20 +5,20 @@
 - **c**
 - **javascript**
 - **html**
-## 完全に理解した(まだ理解が成熟しきっていない)
+- **typescript**
+## 完全に理解した
 - **c#**
 - **.net**
 - **rust**
-- **typescript**
 - **vue.js(v2)**
 - **pug**
 - **node**
 - **python**
-- **react**
-- **next.js(next-auth)**
+- **next.js**
 ## 触ったことはある
 - **nuxt.js(v2)**
 - **css**
+- **react**
 - **electron(v12)**
 - php
 - deno
@@ -32,6 +32,7 @@
 - primer(GitHubな感じのCSSフレームワーク)
 - wasm(Rust)
 - tauri
+- t3 stacks
 
 # My tech stacks(tool)
 ## 日常的に使っている
@@ -43,6 +44,7 @@
 - pyenv
 - venv
 - volta
+- node
 - git
 - github
 - shell(fish)

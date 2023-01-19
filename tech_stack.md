@@ -1,11 +1,11 @@
 # My tech stacks(lang, framework, library)
 **太字**:個人製作に使用経験経験あり
-## Pro
-## 何もわからない
+## Pro(実務経験での使用があるレベルでの理解度)
+## 何もわからない(ある程度理解している)
 - **c**
 - **javascript**
 - **html**
-## 完全に理解した
+## 完全に理解した(まだ理解が成熟しきっていない)
 - **c#**
 - **.net**
 - **rust**
@@ -14,16 +14,16 @@
 - **pug**
 - **node**
 - **python**
+- **react**
+- **next.js(next-auth)**
 ## 触ったことはある
-- python
 - **nuxt.js(v2)**
 - **css**
-- react
 - **electron(v12)**
 - php
 - deno
+- **fastapi**
 ## これからやりたい
-- next.js
 - SMACSS
 - SCSS/SASS
 - OpenGL

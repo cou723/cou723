@@ -5,7 +5,9 @@ alias lt='exa --tree --icons --git'
 alias ltl='exa --tree --long --icons --git --level=2'
 
 # util
-alias cd~="cd /mnt/c/Users/Cou/"
+alias cd~="cd /mnt/c/Users/coura/"
+alias cddocs="cd /mnt/c/Users/coura/Documents/"
+alias cddwn="cd /mnt/c/Users/coura/Downloads/"
 alias norm="norminette"
 alias witch="which"
 alias jan='LANG=ja_JP.utf8 man'

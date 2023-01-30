@@ -13,6 +13,7 @@ alias witch="which"
 alias jan='LANG=ja_JP.utf8 man'
 alias fishconfig="code ~/.config/fish/config.fish"
 alias starconfig="code ~/.config/starship.toml"
+alias pd="cd ../;ls"
 
 # git
 alias ga="git add"
@@ -42,6 +43,12 @@ alias pact=". venv/bin/activate.fish"
 alias ghil="gh issue list"
 alias ghi="gh issue"
 alias ghic="gh issue create"
+
+# c
+alias m="make"
+alias mc="make clean"
+alias mf="make fclean"
+alias mr="make re"
 
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"

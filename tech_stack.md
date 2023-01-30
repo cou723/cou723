@@ -1,7 +1,7 @@
 # My tech stacks(lang, framework, library)
 **太字**:個人製作に使用経験経験あり
-## Pro
-## 何もわからない
+## Pro(実務経験での使用があるレベルでの理解度)
+## 何もわからない(ある程度理解している)
 - **c**
 - **javascript**
 - **html**
@@ -22,6 +22,7 @@
 - **electron(v12)**
 - php
 - deno
+- **fastapi**
 ## これからやりたい
 - SMACSS
 - SCSS/SASS

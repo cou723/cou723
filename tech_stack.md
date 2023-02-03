@@ -1,28 +1,29 @@
 # My tech stacks(lang, framework, library)
 **太字**:個人製作に使用経験経験あり
-## Pro
-## 何もわからない
+## Pro(実務経験での使用があるレベルでの理解度)
+## 何もわからない(ある程度理解している)
 - **c**
 - **javascript**
 - **html**
+- **typescript**
 ## 完全に理解した
 - **c#**
 - **.net**
 - **rust**
-- **typescript**
 - **vue.js(v2)**
 - **pug**
 - **node**
+- **python**
+- **next.js**
 ## 触ったことはある
-- python
 - **nuxt.js(v2)**
 - **css**
-- react
+- **react**
 - **electron(v12)**
 - php
 - deno
+- **fastapi**
 ## これからやりたい
-- next.js
 - SMACSS
 - SCSS/SASS
 - OpenGL
@@ -31,6 +32,7 @@
 - primer(GitHubな感じのCSSフレームワーク)
 - wasm(Rust)
 - tauri
+- t3 stacks
 
 # My tech stacks(tool)
 ## 日常的に使っている
@@ -39,7 +41,10 @@
 - valgrind
 - pnpm
 - ubuntu
+- pyenv
+- venv
 - volta
+- node
 - git
 - github
 - shell(fish)

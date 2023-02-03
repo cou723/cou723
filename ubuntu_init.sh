@@ -29,9 +29,12 @@ sudo apt install python-pip
 sudo apt-get install -y ruby ruby-bundler ruby-dev build-essential
 
 # web
-sudo apt install -y npm
+curl https://get.volta.sh | bash # volta install
+volta install node@latest # install node@latest
+sudo apt install -y pnpm
 curl -fsSL https://deno.land/x/install/install.sh | sh
 curl https://get.volta.sh | bash
+sudo apt install -y
 
 # php
 sudo apt-get install -y software-properties-common

@@ -50,12 +50,19 @@ alias mc="make clean"
 alias mf="make fclean"
 alias mr="make re"
 
+# docker
+alias dk="docker"
+alias dc="docker-compose"
+alias dkr="docker run"
+alias dkb="docker build"
+
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="/home/cou/.local/bin:$PATH"
 export PNPM_HOME="/home/cou/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-
+export CXX=clang++
+export CC=clang
 # keybinds
 bind \cn backward-kill-path-component
 

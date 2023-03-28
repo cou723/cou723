@@ -14,6 +14,7 @@ alias jan='LANG=ja_JP.utf8 man'
 alias fishconfig="code ~/.config/fish/config.fish"
 alias starconfig="code ~/.config/starship.toml"
 alias pd="cd ../;ls"
+alias untgz="tar -xzvf"
 
 # git
 alias ga="git add"
@@ -55,6 +56,9 @@ alias dk="docker"
 alias dc="docker-compose"
 alias dkr="docker run"
 alias dkb="docker build"
+
+alias antlr4='java -jar /usr/local/lib/antlr-4.10.1-complete.jar'
+alias grun='java org.antlr.v4.gui.TestRig'
 
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"

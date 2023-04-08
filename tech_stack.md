@@ -1,38 +1,39 @@
 # My tech stacks(lang, framework, library)
-**太字**:個人製作に使用経験経験あり
-## Pro(実務経験での使用があるレベルでの理解度)
-## 何もわからない(ある程度理解している)
-- **c**
-- **javascript**
-- **html**
-- **typescript**
-## 完全に理解した
-- **c#**
-- **.net**
-- **rust**
-- **vue.js(v2)**
-- **pug**
-- **node**
-- **python**
-- **next.js**
-## 触ったことはある
-- **nuxt.js(v2)**
-- **css**
-- **react**
-- **electron(v12)**
-- php
-- deno
-- **fastapi**
-## これからやりたい
-- SMACSS
-- SCSS/SASS
-- OpenGL
-- Vue.ts + electron
-- Gatsby
-- primer(GitHubな感じのCSSフレームワーク)
-- wasm(Rust)
-- tauri
-- t3 stacks
+理解度: 技術 
+## 実務経験あり
+- 5: typescript 
+## 個人開発経験あり
+- 5: c
+- 5: javascript
+- 5: html
+- 3: node
+- 4: python
+  - 4: fastapi
+  - 2: c#
+  - 1: .net
+  - 1: rust
+- 1: vue.js(v2)
+  - 1: nuxt.js(v2)
+  - 4: pug
+- 1: electron(v12)
+- 2: css
+- 3: react
+  - 3: next.js
+  ## 使用経験あり
+- 3: php
+- 3: deno
+- 3: c++
+## これからやりたい、つかってみたい (+の数は興味の度合い)
+- SMACSS +
+- SCSS/SASS ++
+- OpenGL +
+- Vue.ts × electron +
+- Gatsby +++
+- primer(GitHubな感じのCSSフレームワーク) ++
+- wasm(Rust) +
+- react × tauri +++++
+- T3 stacks +++
+- Atomic Design +++++
 
 # My tech stacks(tool)
 ## 日常的に使っている
@@ -47,11 +48,12 @@
 - node
 - git
 - github
-- shell(fish)
+- shell(fish,bash,zsh)
+- vscode
 ## 使用経験あり
 - yarn
 - npm
 - docker
 - docker-compose
 - vite
-## 使用を検討している
+- vim

@@ -13,6 +13,7 @@ sudo apt install -y manpages-ja manpages-ja-dev language-pack-ja
 sudo apt install -y libreadline-dev
 sudo apt-get install -y libtool-bin
 sudo apt install -y libtinfo-dev
+ln -nfs  /usr/bin/clang++ /etc/alternatives/c++
 
 # utils
 sudo apt install -y curl fonts-powerline xclip zip unzip zsh athena-jot graphviz doxygen fish wget
@@ -51,7 +52,6 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 git clone https://github.com/scopatz/nanorc.git ~/.nano
 
 curl -sS https://starship.rs/install.sh | sh
-
 
 # Hackgen NFを表示用フォントにすることを忘れずに
 

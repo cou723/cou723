@@ -9,9 +9,13 @@ Remove-Alias -Force gc
 Set-Alias gc fgc
 Remove-Alias -Force gm
 Set-Alias gm fgm
-
+Remove-Alias -Force gl
+Set-Alias gl fgl
 function ga. {
     git add .
+}
+function ga($range) {
+    git add $range
 }
 function gpsh {
     git push
@@ -27,6 +31,12 @@ function gb($to) {
 }
 function fgm($from) {
     git merge $from
+}
+function fgl{
+    git log
+}
+function gcl($rep){
+    git clone $rep
 }
 
 # Import the Chocolatey Profile that contains the necessary code to enable

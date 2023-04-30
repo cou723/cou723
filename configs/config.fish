@@ -22,6 +22,9 @@ alias ga.="git add ."
 alias gicm="git commit -m"
 alias gpsh="git push"
 alias gpl="git pull"
+alias 42gcl="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git clone"
+alias 42gpl="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git pull"
+alias 42gpsh="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git push"
 alias gc="git checkout"
 alias gc.="git checkout ."
 alias gb="git branch"
@@ -33,6 +36,7 @@ alias gcl="git clone"
 # npm
 alias n="npm"
 alias nr="npm run"
+alias pr="pnpm run"
 alias pi="pnpm install"
 
 # python

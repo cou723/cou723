@@ -34,6 +34,7 @@
 - react × tauri +++++
 - T3 stacks +++
 - Atomic Design +++++
+- Astro +++++
 
 # My tech stacks(tool)
 ## 日常的に使っている

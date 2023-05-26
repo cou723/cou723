@@ -24,19 +24,20 @@
 - 3: deno
 - 3: c++
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
-- SMACSS +
-- SCSS/SASS ++
-- OpenGL +
-- Vue.ts × electron +
-- Gatsby +++
-- primer(GitHubな感じのCSSフレームワーク) ++
-- wasm(Rust) +
-- react × tauri +++++
-- T3 stacks +++
-- Atomic Design +++++
-- Astro +++++
-- Flutter +++++
-- ReactNative +++++
+- +++++ react × tauri 
+- +++++ Atomic Design 
+- +++++ Astro 
+- +++++ Flutter 
+- +++++ ReactNative 
+- ++++- T3 stacks 
+- +++-- TailWind Css
+- ++--- SCSS/SASS 
+- ++--- primer(GitHubな感じのCSSフレームワーク) 
+- +---- Gatsby 
+- +---- SMACSS 
+- +---- OpenGL 
+- +---- Vue.ts × electron 
+- +---- wasm(Rust) 
 
 # My tech stacks(tool)
 ## 日常的に使っている

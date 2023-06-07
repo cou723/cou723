@@ -1,23 +1,15 @@
 #!/bin/sh
-sudo apt-get -y -qq install -y ubuntu-wsl
-sudo apt update
-sudo apt-get update
+sudo apt-get -y -qq install -y ubuntu-wsl & sudo apt update & sudo apt-get update
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # c lang
-sudo apt install -y build-essential
-sudo apt install -y clang gdb cmake valgrind clang-format
-sudo apt install -y manpages-ja manpages-ja-dev language-pack-ja
-sudo apt install -y libreadline-dev
-sudo apt-get install -y libtool-bin
-sudo apt install -y libtinfo-dev
+sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev
 ln -nfs  /usr/bin/clang++ /etc/alternatives/c++
 
 # utils
 sudo apt install -y curl fonts-powerline xclip zip unzip zsh athena-jot graphviz doxygen fish wget
-sudo apt install nkf
 cargo install exa
 
 # python
@@ -29,12 +21,8 @@ pyenv install python3.10
 sudo apt-get install -y ruby ruby-bundler ruby-dev build-essential
 
 # web
-curl https://get.volta.sh | bash # volta install
-volta install node@latest # install node@latest
-sudo apt install -y pnpm
-curl -fsSL https://deno.land/x/install/install.sh | sh
-curl https://get.volta.sh | bash
-sudo apt install -y
+curl https://get.volta.sh | bash & volta install node@latest # 
+sudo apt install -y pnpm & curl -fsSL https://deno.land/x/install/install.sh | sh & curl https://get.volta.sh | bash & sudo apt install -y
 
 # php
 sudo apt-get install -y software-properties-common

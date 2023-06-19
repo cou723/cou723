@@ -33,7 +33,7 @@
 - wasm(Rust) +
 - react × tauri +++++
 - T3 stacks +++
-- Atomic Design +++++
+- Atomic Design +++++z
 
 # My tech stacks(tool)
 ## 日常的に使っている

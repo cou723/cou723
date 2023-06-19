@@ -22,6 +22,9 @@ alias ga.="git add ."
 alias gicm="git commit -m"
 alias gpsh="git push"
 alias gpl="git pull"
+alias 42gcl="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git clone"
+alias 42gpl="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git pull"
+alias 42gpsh="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git push"
 alias gc="git checkout"
 alias gc.="git checkout ."
 alias gb="git branch"
@@ -33,6 +36,7 @@ alias gcl="git clone"
 # npm
 alias n="npm"
 alias nr="npm run"
+alias pr="pnpm run"
 alias pi="pnpm install"
 
 # python
@@ -44,6 +48,7 @@ alias pact=". venv/bin/activate.fish"
 alias ghil="gh issue list"
 alias ghi="gh issue"
 alias ghic="gh issue create"
+alias ghicl="gh issue close"
 
 # c
 alias m="make"
@@ -57,16 +62,13 @@ alias dc="docker-compose"
 alias dkr="docker run"
 alias dkb="docker build"
 
-alias antlr4='java -jar /usr/local/lib/antlr-4.10.1-complete.jar'
-alias grun='java org.antlr.v4.gui.TestRig'
-
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="/home/cou/.local/bin:$PATH"
 export PNPM_HOME="/home/cou/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-export CXX=clang++
-export CC=clang
+export CXX=gcc
+export CC=gcc
 # keybinds
 bind \cn backward-kill-path-component
 

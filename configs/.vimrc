@@ -1,13 +1,15 @@
 set nu
+set autoindent
+set cursorline
 syntax enable
-inoremap <C-j> <LEFT>
-inoremap <C-k> <DOWN>
+map h <insert>
+map i <up>
+map j <left>
+map k <down>
 inoremap <C-l> <RIGHT>
-inoremap <C-n> <BS>
-inoremap <C-m> <DELETE>
-inoremap ( ()<LEFT>
-inoremap { {}<ESC>i<CR><ESC><S-o>
+inoremap <C-k> <DOWN>
+inoremap jk <ESC>
 inoremap [ []<LEFT>
+inoremap { {}<LEFT><CR><ESC><S-o><TAB>
+inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
-inoremap ' ''<LEFT>
-inoremap <slient> jf <ESC>

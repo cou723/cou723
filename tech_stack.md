@@ -2,11 +2,14 @@
 理解度: 技術 
 ## 実務経験あり
 - 5: typescript 
+- 3: react
+  - 2: react-router
+- 5: html
+- 3: react-bootstrap
+- 2: express
 ## 個人開発経験あり
 - 5: c
 - 5: javascript
-- 5: html
-- 3: node
 - 4: python
   - 4: fastapi
   - 2: c#
@@ -17,8 +20,7 @@
   - 4: pug
 - 1: electron(v12)
 - 2: css
-- 3: react
-  - 3: next.js
+- 4: next.js
   ## 使用経験あり
 - 3: php
 - 3: deno
@@ -40,6 +42,11 @@
 - +---- wasm(Rust) 
 
 # My tech stacks(tool)
+## 実務経験あり
+- node
+- npm
+- vite
+- volta
 ## 日常的に使っている
 - shell script(unix tools)
 - make
@@ -48,16 +55,12 @@
 - ubuntu
 - pyenv
 - venv
-- volta
-- node
 - git
 - github
 - shell(fish,bash,zsh)
 - vscode
 ## 使用経験あり
 - yarn
-- npm
 - docker
 - docker-compose
-- vite
 - vim

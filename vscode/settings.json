@@ -1,0 +1,310 @@
+{
+    "42header.email": "yueyama@student.42tokyo.jp",
+    "42header.username": "yueyama",
+    "C/C++ Include Guard.Suffix": "_H",
+    // "C_Cpp.clang_format_style": "{ BasedOnStyle: Microsoft, IndentWidth: 4, ColumnLimit: 120, PackConstructorInitializers: CurrentLine, AlwaysBreakTemplateDeclarations: Yes, SplitEmptyFunction: true,AllowShortFunctionsOnASingleLine: Empty}",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": false
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.formatOnSave": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "other": "off",
+            "strings": "off"
+        },
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[mcfunction]": {
+        "editor.defaultFormatter": "SPGoding.datapack-language-server"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.userWords": [
+        "ANYCH",
+        "Behaviour",
+        "blockmap",
+        "busperson",
+        "chara",
+        "communication",
+        "courange",
+        "cout",
+        "csvfile",
+        "Cubase",
+        "datetime",
+        "Dockerfiles",
+        "endl",
+        "endregion",
+        "epfd",
+        "fastapi",
+        "gapi",
+        "gehu",
+        "HHKB",
+        "hoge",
+        "hogehuga",
+        "hogehugahoge",
+        "hookform",
+        "HOTBAR",
+        "huga",
+        "jsessionid",
+        "Jugyo",
+        "Karim",
+        "keychron",
+        "keycodes",
+        "lstadd",
+        "mcmeta",
+        "minecraft",
+        "MINITALK",
+        "musn't",
+        "norminette",
+        "nsis",
+        "NYCH",
+        "Palatalised",
+        "pandoc",
+        "println",
+        "PROGMEM",
+        "putnbr",
+        "putstr",
+        "putunbr",
+        "resourcepack",
+        "resourcepacks",
+        "RPRN",
+        "rtakano",
+        "rustup",
+        "Scav",
+        "signin",
+        "splus",
+        "srcs",
+        "strequ",
+        "strtrim",
+        "structopt",
+        "tailwindcss",
+        "tauri",
+        "tetris",
+        "todos",
+        "uikit",
+        "vuejs",
+        "vuetify",
+        "wcalloc",
+        "webserv",
+        "Widgetsbase",
+        "YOUON",
+        "yueyama"
+    ],
+    "debug.console.fontFamily": "default",
+    "debug.onTaskErrors": "abort",
+    "editor.accessibilitySupport": "off",
+    "editor.autoClosingBrackets": "always",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "phase",
+    "editor.fontFamily": "Hackgen",
+    "editor.fontLigatures": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.insertSpaces": true,
+    "editor.largeFileOptimizations": false,
+    "editor.minimap.enabled": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.renderWhitespace": "all",
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 4,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.wordWrap": "off",
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
+    "files.associations": {
+        "*.c": "c",
+        ".*lintrc": "json",
+        "*.gs": "javascript"
+    },
+    "files.autoGuessEncoding": true,
+    "files.autoSaveDelay": 1000,
+    "files.exclude": {
+        "**/*.map": true,
+        "**/node_modules": true
+    },
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "html.format.unformatted": null,
+    "html.format.wrapLineLength": 0,
+    "javascript.format.enable": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "markdown.marp.enableHtml": true,
+    "markdown.preview.fontSize": 25,
+    "markdown.preview.lineHeight": 1.4,
+    "prettier.bracketSpacing": false,
+    "prettier.printWidth": 10000,
+    "prettier.tabWidth": 4,
+    "scm.inputFontSize": 14,
+    "search.exclude": {
+        "**/tmp": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredExtensions": [
+        "taiyofujii.novel-writer"
+    ],
+    "terminal.integrated.scrollback": 3000,
+    "update.showReleaseNotes": false,
+    "window.enableMenuBarMnemonics": false,
+    "window.openFoldersInNewWindow": "on",
+    "window.title": "${rootName}",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editorAssociations": {
+        "*.dotm": "default"
+    },
+    "workbench.startupEditor": "none",
+    "markdown.preview.breaks": true,
+    "terminal.integrated.fontFamily": "\"HackGen Console NF\"",
+    "window.menuBarVisibility": "toggle",
+    "explorer.compactFolders": false,
+    "markdown-image.base.fileNameFormat": "${timestamp}",
+    "window.commandCenter": true,
+    "git.autofetch": true,
+    "github.codespaces.showPerformanceExplorer": true,
+    "zenMode.hideStatusBar": false,
+    "workbench.statusBar.visible": true,
+    "terminal.integrated.fastScrollSensitivity": 0.01,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
+    "terminal.integrated.fontSize": 15,
+    "update.mode": "none",
+    "workbench.sash.size": 7,
+    "python.linting.flake8CategorySeverity.F": "Warning",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": false
+    },
+    "cmake.configureOnOpen": true,
+    "[jinja-html]": {
+        "editor.formatOnSave": false
+    },
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "C/C++ Include Guard.Macro Type": "Filename",
+    "[nginx]": {
+        "editor.defaultFormatter": "raynigon.nginx-formatter"
+    },
+    "editor.inlayHints.enabled": "off",
+    "remote.SSH.remotePlatform": {
+        "enq-dev3": "linux",
+        "OpticoDev": "linux"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "glassit.alpha": 255,
+    "[typescript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": false
+    },
+    "clangTidy.extraCompilerArgs": [
+        "-Weverything",
+        "-Werror -Wextra -Wall"
+    ],
+    "settingsSync.ignoredSettings": [
+        "editor.fontFamily",
+        "terminal.integrated.fontFamily"
+    ],
+    "rest-client.fontFamily": "",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "yaml": false
+    },
+    "lldb.suppressUpdateNotifications": true,
+    "hediet.vscode-drawio.resizeImages": null,
+    "C/C++ Include Guard.Auto Include Guard Insertion For New File": false,
+    "eslint.format.enable": true,
+    "haselerdev.aiquickfix.model": "gpt-4",
+    "haselerdev.aiquickfix.apiKey": "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",
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.cursorStyle": "block",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "git.openRepositoryInParentFolders": "never",
+    "files.eol": "\n",
+    "files.autoSave": "onFocusChange",
+    "editor.scrollBeyondLastColumn": 10,
+    "editor.stickyScroll.maxLineCount": 10,
+    "C_Cpp.dimInactiveRegions": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.cursorSurroundingLines": 20,
+    "tabnine.experimentalAutoImports": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        "myqmk",
+        "*.json",
+        "*.md",
+    ],
+    "cSpell.ignoreRegExpList": [
+        "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
+    ],
+    "python.formatting.provider": "none",
+    "codic.case": "camelCase",
+    "jumpy.fontFamily": "Hackgen",
+    "markdown.marp.themes": [
+        "https://raw.githubusercontent.com/rnd195/my-marp-themes/main/gradient.css",
+        "https://raw.githubusercontent.com/rnd195/marp-community-themes/live/themes/graph_paper.css"
+    ],
+    "jumpy.primaryCharset": "jfkdlshgurieowyt",
+    "xml.format.splitAttributes": true
+}

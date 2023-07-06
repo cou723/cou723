@@ -11,6 +11,10 @@
     },
     {
         "key": "ctrl+t",
+        "command": "workbench.action.focusActiveEditorGroup",
+    },
+    {
+        "key": "ctrl+t",
         "command": "workbench.action.terminal.focus",
         "when": "editorTextFocus"
     },
@@ -18,6 +22,11 @@
         "key": "ctrl+t",
         "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "filesExplorerFocus"
     },
     {
         "key": "ctrl+1",
@@ -84,10 +93,6 @@
         "key": "ctrl+k p",
         "command": "-workbench.action.pinEditor",
         "when": "!activeEditorIsPinned"
-    },
-    {
-        "key": "ctrl+shift+alt+enter ctrl+shift+alt+enter",
-        "command": "extension.openPrGitProvider"
     },
     {
         "key": "ctrl+l p",
@@ -168,7 +173,7 @@
         "command": "-workbench.action.togglePanel"
     },
     {
-        "key": "shift+alt+l",
+        "key": "ctrl+l",
         "command": "editor.action.smartSelect.expand",
         "when": "editorTextFocus"
     },
@@ -217,10 +222,6 @@
         "command": "-workbench.action.moveActiveEditorGroupRight"
     },
     {
-        "key": "ctrl+j ctrl+j",
-        "command": "workbench.action.moveActiveEditorGroupLeft"
-    },
-    {
         "key": "ctrl+k left",
         "command": "-workbench.action.moveActiveEditorGroupLeft"
     },
@@ -241,5 +242,114 @@
     {
         "key": "ctrl+r",
         "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "-editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+j",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "undo"
+    },
+    {
+        "key": "ctrl+z",
+        "command": "-undo"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "redo"
+    },
+    {
+        "key": "ctrl+shift+z",
+        "command": "-redo"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "cursorWordStartRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "cursorWordStartRightSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+m",
+        "command": "jupyter.notebookeditor.addcellbelow"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "extension.jumpy-enter",
+        "when": "editorTextFocus && !jumpy.isInJumpMode"
+    },
+    {
+        "key": "alt+q",
+        "command": "-extension.jumpy-enter",
+        "when": "editorTextFocus && !jumpy.isInJumpMode"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "extension.jumpy-exit",
+        "when": "editorTextFocus && jumpy.isInJumpMode"
+    },
+    {
+        "key": "alt+q",
+        "command": "-extension.jumpy-exit",
+        "when": "editorTextFocus && jumpy.isInJumpMode"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
     }
 ]

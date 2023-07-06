@@ -48,7 +48,6 @@ alias pact=". venv/bin/activate.fish"
 alias ghil="gh issue list"
 alias ghi="gh issue"
 alias ghic="gh issue create"
-alias ghicl="gh issue close"
 
 # c
 alias m="make"
@@ -62,13 +61,16 @@ alias dc="docker-compose"
 alias dkr="docker run"
 alias dkb="docker build"
 
+alias antlr4='java -jar /usr/local/lib/antlr-4.10.1-complete.jar'
+alias grun='java org.antlr.v4.gui.TestRig'
+
 export DENO_INSTALL="/home/cou/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="/home/cou/.local/bin:$PATH"
 export PNPM_HOME="/home/cou/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-export CXX=gcc
-export CC=gcc
+export CXX=clang++
+export CC=clang
 # keybinds
 bind \cn backward-kill-path-component
 

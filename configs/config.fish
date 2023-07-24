@@ -6,11 +6,7 @@ alias ltl='exa --tree --long --icons --git --level=2'
 
 # util
 alias cd~="cd /mnt/c/Users/coura/"
-alias cddocs="cd /mnt/c/Users/coura/Documents/"
-alias cddwn="cd /mnt/c/Users/coura/Downloads/"
-alias norm="norminette"
 alias witch="which"
-alias jan='LANG=ja_JP.utf8 man'
 alias fishconfig="code ~/.config/fish/config.fish"
 alias starconfig="code ~/.config/starship.toml"
 alias pd="cd ../;ls"
@@ -20,11 +16,9 @@ alias untgz="tar -xzvf"
 alias ga="git add"
 alias ga.="git add ."
 alias gicm="git commit -m"
+alias gicai="aicommits"
 alias gpsh="git push"
 alias gpl="git pull"
-alias 42gcl="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git clone"
-alias 42gpl="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git pull"
-alias 42gpsh="GIT_SSH_COMMAND=\"ssh -J git@vgs-gw.42tokyo.jp:4242\" git push"
 alias gc="git checkout"
 alias gc.="git checkout ."
 alias gb="git branch"
@@ -69,8 +63,11 @@ export PATH="$DENO_INSTALL/bin:$PATH"
 export PATH="/home/cou/.local/bin:$PATH"
 export PNPM_HOME="/home/cou/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
-export CXX=clang++
-export CC=clang
+export ANDROID_HOME=$HOME/Android
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 # keybinds
 bind \cn backward-kill-path-component
 

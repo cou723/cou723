@@ -108,6 +108,8 @@ if ! shopt -oq posix; then
     fi
 fi
 
+
+
 sudo chown cou /dev/kvm
 if [ -f ~/.bash_path ]; then
     source ~/.path-bashrc

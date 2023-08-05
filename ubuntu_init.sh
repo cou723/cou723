@@ -6,7 +6,6 @@ sudo apt-get -y -qq install -y ubuntu-wsl & sudo apt update & sudo apt-get updat
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-echo 'export PATH=$HOME/.cargo/bin:$PATH' >> $PATHFILE
 
 # c lang
 sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev
@@ -34,10 +33,6 @@ volta install yarn
 volta install npm
 sudo apt install -y pnpm & curl -fsSL https://deno.land/x/install/install.sh | sh & curl https://get.volta.sh | bash & sudo apt install -y
 
-# php
-sudo apt-get install -y software-properties-common
-sudo apt install -y php8.0
-
 # gh
 type -p curl >/dev/null || sudo apt install curl -y
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
@@ -49,6 +44,10 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 git clone https://github.com/scopatz/nanorc.git ~/.nano
 
 curl -sS https://starship.rs/install.sh | sh
+
+curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bashrc > ~/.bash_path
+curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
+curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.vimrc > ~/.vimrc
 
 # Hackgen NFを表示用フォントにすることを忘れずに
 

@@ -5,7 +5,7 @@ PATHFILE=~/.bash_path
 sudo apt-get -y -qq install -y ubuntu-wsl & sudo apt update & sudo apt-get update
 
 # rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+yes '' | curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # c lang
 sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev
@@ -43,9 +43,9 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 
 git clone https://github.com/scopatz/nanorc.git ~/.nano
 
-curl -sS https://starship.rs/install.sh | sh
+yes 'y' | curl -sS https://starship.rs/install.sh | sh
 
-curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bashrc > ~/.bash_path
+curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bash_path > ~/.bash_path
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.vimrc > ~/.vimrc
 

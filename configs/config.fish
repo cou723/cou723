@@ -1,42 +1,70 @@
 # ls(exa)
-alias ls='exa --grid --icons --git'
-alias ll='exa --long --icons --git'
-alias lt='exa --tree --icons --git'
-alias ltl='exa --tree --long --icons --git --level=2'
+if type exa > /dev/null 2>&1
+    alias ls='exa --grid --icons --git'
+    alias ll='exa --long --icons --git'
+    alias lt='exa --tree --icons --git'
+    alias ltl='exa --tree --long --icons --git --level=2'
+end
+
+# cat(bat)
+if type bat > /dev/null 2>&1
+    alias cat='bat'
+end
+
+# du(dust)
+if type dust > /dev/null 2>&1
+    alias du='dust'
+end
+
 
 # util
 alias cd~="cd /mnt/c/Users/coura/"
 alias witch="which"
-alias fishconfig="code ~/.config/fish/config.fish"
-alias starconfig="code ~/.config/starship.toml"
 alias pd="cd ../;ls"
 alias untgz="tar -xzvf"
 
+# config
+alias fishconfig="code ~/.config/fish/config.fish"
+alias vfishconfig="vim ~/.config/fish/config.fish"
+alias bashrc="code ~/.bashrc"
+alias vbashrc="vim ~/.bashrc"
+alias starconfig="code ~/.config/starship.toml"
+
 # git
-alias ga="git add"
-alias ga.="git add ."
-alias gicm="git commit -m"
-alias gicai="aicommits"
-alias gpsh="git push"
-alias gpl="git pull"
-alias gc="git checkout"
-alias gc.="git checkout ."
-alias gb="git branch"
-alias gm="git merge"
-alias gd="git diff"
-alias gl="git log"
-alias gcl="git clone"
+if type git > /dev/null 2>&1
+    alias ga="git add"
+    alias ga.="git add ."
+    alias gicm="git commit -m"
+    alias gicai="aicommits"
+    alias gpsh="git push"
+    alias gpl="git pull"
+    alias gc="git checkout"
+    alias gc.="git checkout ."
+    alias gb="git branch"
+    alias gm="git merge"
+    alias gd="git diff"
+    alias gl="git log"
+    alias gcl="git clone"
+end
 
 # npm
-alias n="npm"
-alias nr="npm run"
-alias pr="pnpm run"
-alias pi="pnpm install"
+if type npm > /dev/null 2>&1
+    alias n="npm"
+    alias nr="npm run"
+end
+
+if type pnpm > /dev/null 2>&1
+    alias pr="pnpm run"
+    alias pi="pnpm install"
+end
 
 # python
 alias py="python3"
 alias penv="python3 -m venv venv"
 alias pact=". venv/bin/activate.fish"
+if type poetry > /dev/null 2>&1
+    alias poe="poetry"
+end
 
 # github
 alias ghil="gh issue list"
@@ -55,20 +83,7 @@ alias dc="docker-compose"
 alias dkr="docker run"
 alias dkb="docker build"
 
-alias antlr4='java -jar /usr/local/lib/antlr-4.10.1-complete.jar'
-alias grun='java org.antlr.v4.gui.TestRig'
-
-export DENO_INSTALL="/home/cou/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
-export PATH="/home/cou/.local/bin:$PATH"
-export PNPM_HOME="/home/cou/.local/share/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-export ANDROID_HOME=$HOME/Android
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-# keybinds
-bind \cn backward-kill-path-component
+# android
+alias android="/usr/local/android-studio/bin/studio.sh"
 
 starship init fish | source

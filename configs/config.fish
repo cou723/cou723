@@ -28,6 +28,13 @@ alias starconfig="code ~/.config/starship.toml"
 alias pd="cd ../;ls"
 alias untgz="tar -xzvf"
 
+# config
+alias fishconfig="code ~/.config/fish/config.fish"
+alias vfishconfig="vim ~/.config/fish/config.fish"
+alias bashrc="code ~/.bashrc"
+alias vbashrc="vim ~/.bashrc"
+alias starconfig="code ~/.config/starship.toml"
+
 # git
 if type git > /dev/null 2>&1
   alias ga="git add"

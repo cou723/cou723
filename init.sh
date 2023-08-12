@@ -1,0 +1,1 @@
+sudo curl https://raw.githubusercontent.com/cou723/cou723/main/ubuntu_init.sh | sh

@@ -45,8 +45,4 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt update \
 && sudo apt install gh -y
 
-git clone https://github.com/scopatz/nanorc.git ~/.nano
-
 curl -sS https://starship.rs/install.sh | sh -s -- --yes
-
-echo "exec fish" >> ~/.bashrc

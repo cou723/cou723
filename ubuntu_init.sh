@@ -21,7 +21,7 @@ cargo install exa bat
 # python
 sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 curl https://pyenv.run | bash
-$HOME/.pyenv/bin/pyenv install python3.10
+$HOME/.pyenv/bin/pyenv install 3.10
 
 # ruby
 sudo apt-get install -y ruby ruby-bundler ruby-dev build-essential

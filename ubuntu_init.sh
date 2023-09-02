@@ -1,14 +1,9 @@
 #!/bin/sh
+# Hackgen NFを表示用フォントにすることを忘れずに
 
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bash_path > ~/.bash_path
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.vimrc > ~/.vimrc
-
-# Hackgen NFを表示用フォントにすることを忘れずに
-
-echo "if [ -f ~/.bash_path ]; then
-    source ~/.bash_path
-fi" >> ~/.bashrc
 
 sudo apt-get -y -qq install -y ubuntu-wsl & sudo apt update & sudo apt-get update
 
@@ -25,7 +20,6 @@ cargo install exa bat
 # python
 sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 curl https://pyenv.run | bash
-source ~/.bashrc
 pyenv install python3.10
 
 # ruby

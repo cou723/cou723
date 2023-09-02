@@ -3,7 +3,8 @@
 ## 実務経験あり
 - 5: typescript 
 - 3: react
-  - 2: react-router
+  - 3: react-router
+  - 2: react-hook-form
 - 5: html
 - 3: react-bootstrap
 - 2: express
@@ -20,23 +21,24 @@
   - 4: pug
 - 1: electron(v12)
 - 2: css
+- 2: TailWind Css
 - 4: next.js
   ## 使用経験あり
 - 3: php
 - 3: deno
 - 3: c++
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
-- +++++ react × tauri 
+- +++++ WRY
 - +++++ Atomic Design 
 - +++++ Astro 
 - +++++ Flutter 
 - +++++ ReactNative 
+- ++++- react × tauri 
 - ++++- T3 stacks 
-- +++-- TailWind Css
-- ++--- SCSS/SASS 
+- ++++- Tanstack Query
+- +++-- SCSS/SASS 
 - ++--- primer(GitHubな感じのCSSフレームワーク) 
 - +---- Gatsby 
-- +---- SMACSS 
 - +---- OpenGL 
 - +---- Vue.ts × electron 
 - +---- wasm(Rust) 

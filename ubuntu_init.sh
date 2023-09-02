@@ -1,6 +1,7 @@
 #!/bin/sh
 # Hackgen NFを表示用フォントにすることを忘れずに
 
+curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bashrc> ~/.bashrc
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bash_path > ~/.bash_path
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.vimrc > ~/.vimrc

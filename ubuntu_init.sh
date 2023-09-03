@@ -3,7 +3,6 @@
 
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bashrc> ~/.bashrc
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bash_path > ~/.bash_path
-curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.vimrc > ~/.vimrc
 
 sudo apt-get -y -qq install -y ubuntu-wsl & sudo apt update & sudo apt-get update
@@ -17,6 +16,7 @@ sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpag
 # utils
 sudo apt install -y curl xclip zip unzip fish wget
 cargo install exa bat
+curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
 
 # python
 sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev python3-pip 

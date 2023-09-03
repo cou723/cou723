@@ -18,11 +18,12 @@ chsh -s $(which zsh)
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 /home/linuxbrew/.linuxbrew/bin/brew install ghq chezmoi
 
+mkdir -p ~/.config/chezmoi
 echo "[edit]" >> ~/.config/chezmoi/chezmoi.toml
 echo "    command = "code"" >> ~/.config/chezmoi/chezmoi.toml
 echo "    args = ["--wait"]" >> ~/.config/chezmoi/chezmoi.toml
 
-echo yes | /home/linuxbrew/.linuxbrew/bin/chezmoi init git@github.com:cou723/dotfiles.git
+/home/linuxbrew/.linuxbrew/bin/chezmoi init git@github.com:cou723/dotfiles.git
 /home/linuxbrew/.linuxbrew/bin/chezmoi apply
 
 # rust

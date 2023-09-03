@@ -13,6 +13,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 # c lang
 sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev
 
+source ~/.bashrc
+
 # utils
 sudo apt install -y curl xclip zip unzip fish wget
 $HOME/.cargo/bin/cargo install exa bat

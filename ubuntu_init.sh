@@ -1,11 +1,16 @@
 #!/bin/sh
 # Hackgen NFを表示用フォントにすることを忘れずに
 
-sudo apt-get -y -qq install -y ubuntu-wsl & sudo apt update & sudo apt-get update
+sudo apt update & sudo apt-get update
+
+# ssh
+cp /mnt/c/Users/coura/.ssh/id_rsa ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa
 
 # zsh
 sudo apt install zsh -y
 curl -fsSL https://git.io/zinit-install | sh
+sudo sed --in-place -e '/auth.*required.*pam_shells.so/s/required/sufficient/g' /etc/pam.d/chsh
 chsh -s $(which zsh)
 
 # homebrew
@@ -17,7 +22,8 @@ echo "[edit]" >> ~/.config/chezmoi/chezmoi.toml
 echo "    command = "code"" >> ~/.config/chezmoi/chezmoi.toml
 echo "    args = ["--wait"]" >> ~/.config/chezmoi/chezmoi.toml
 
-/home/linuxbrew/.linuxbrew/bin/chezmoi init git@github.com:cou723/dotfiles.git
+echo yes | /home/linuxbrew/.linuxbrew/bin/chezmoi init git@github.com:cou723/dotfiles.git
+/home/linuxbrew/.linuxbrew/bin/chezmoi apply
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
@@ -58,5 +64,3 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
 && sudo apt update \
 && sudo apt install gh -y
-
-curl -sS https://starship.rs/install.sh | sh -s -- --yes

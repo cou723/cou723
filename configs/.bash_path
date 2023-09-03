@@ -1,4 +1,4 @@
-
+export PATH="/home/cou/.local/share/:$PATH"
 . "$HOME/.cargo/env"
 
 # volta

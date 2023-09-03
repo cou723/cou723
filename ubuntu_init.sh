@@ -11,7 +11,7 @@ chsh -s $(which zsh)
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-/home/linuxbrew/.linuxbrew/bin/brew isntall ghq chezmoi
+/home/linuxbrew/.linuxbrew/bin/brew install ghq chezmoi
 
 echo "[edit]" >> ~/.config/chezmoi/chezmoi.toml
 echo "    command = "code"" >> ~/.config/chezmoi/chezmoi.toml

@@ -1,11 +1,23 @@
 #!/bin/sh
 # Hackgen NFを表示用フォントにすることを忘れずに
 
-curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bashrc> ~/.bashrc
-curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bash_path > ~/.bash_path
-curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.vimrc > ~/.vimrc
-
 sudo apt-get -y -qq install -y ubuntu-wsl & sudo apt update & sudo apt-get update
+
+# zsh
+sudo apt install zsh -y
+curl -fsSL https://git.io/zinit-install | sh
+chsh -s $(which zsh)
+
+# homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+/home/linuxbrew/.linuxbrew/bin/brew isntall ghq chezmoi
+
+echo "[edit]" >> ~/.config/chezmoi/chezmoi.toml
+echo "    command = "code"" >> ~/.config/chezmoi/chezmoi.toml
+echo "    args = ["--wait"]" >> ~/.config/chezmoi/chezmoi.toml
+
+/home/linuxbrew/.linuxbrew/bin/chezmoi init git@github.com:cou723/dotfiles.git
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
@@ -16,12 +28,12 @@ sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpag
 source ~/.bashrc
 
 # utils
-sudo apt install -y curl xclip zip unzip fish wget
+sudo apt install -y curl xclip zip unzip fish wget peco
 $HOME/.cargo/bin/cargo install exa bat
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
 
 # python
-sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev python3-pip 
+sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev python3-pip
 curl https://pyenv.run | bash
 $HOME/.pyenv/bin/pyenv install 3.10
 

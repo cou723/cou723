@@ -15,7 +15,7 @@ sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpag
 
 # utils
 sudo apt install -y curl xclip zip unzip fish wget
-cargo install exa bat
+$HOME/.cargo/bin/cargo install exa bat
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
 
 # python

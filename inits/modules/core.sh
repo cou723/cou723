@@ -16,7 +16,7 @@ export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 /home/linuxbrew/.linuxbrew/bin/brew install ghq
 
 cd /
-sudo sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $cou723
+sudo sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply cou723
 chezmoi apply
 cd -
 

@@ -3,11 +3,6 @@
 
 sudo apt update & sudo apt-get update
 
-# ssh
-mkdir -p ~/.ssh
-cp /mnt/c/Users/coura/.ssh/id_rsa ~/.ssh/
-sudo chmod 600 ~/.ssh/id_rsa
-
 # zsh
 sudo apt install zsh -y
 curl -fsSL https://git.io/zinit-install | sh
@@ -22,36 +17,17 @@ export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 /home/linuxbrew/.linuxbrew/bin/chezmoi init git@github.com:cou723/dotfiles.git
 /home/linuxbrew/.linuxbrew/bin/chezmoi apply
 
-# rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-
 # c lang
 sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev
 
 source ~/.bashrc
 
+# rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+
 # utils
 sudo apt install -y curl xclip zip unzip wget peco
 $HOME/.cargo/bin/cargo install exa bat
-
-# python
-sudo apt-get install libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev python3-pip
-curl https://pyenv.run | bash
-$HOME/.pyenv/bin/pyenv install 3.10
-
-# ruby
-sudo apt-get install -y ruby ruby-bundler ruby-dev build-essential
-
-# web
-## install volta
-curl https://get.volta.sh | bash
-## install deno
-curl https://get.volta.sh | bash
-volta install node
-volta install pnpm
-volta install yarn
-volta install npm
-sudo apt install -y pnpm & curl -fsSL https://deno.land/x/install/install.sh | sh & curl https://get.volta.sh | bash & sudo apt install -y
 
 # gh
 type -p curl >/dev/null || sudo apt install curl -y

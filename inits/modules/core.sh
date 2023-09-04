@@ -41,5 +41,5 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 # chezmoi
 mkdir -p ~/.config/chezmoi
 echo "[edit]" >> ~/.config/chezmoi/chezmoi.toml
-echo "    command = "code"" >> ~/.config/chezmoi/chezmoi.toml
-echo "    args = ["--wait"]" >> ~/.config/chezmoi/chezmoi.toml
+echo '    command = "code"' >> ~/.config/chezmoi/chezmoi.toml
+echo '    args = ["--wait"]' >> ~/.config/chezmoi/chezmoi.toml

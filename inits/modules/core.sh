@@ -2,6 +2,9 @@
 # Hackgen NFを表示用フォントにすることを忘れずに
 
 sudo apt update & sudo apt-get update
+sudo apt install git
+git config --global user.email "courange.c@gmail.com"
+git config --global user.name "cou723"
 
 # zsh
 sudo apt install zsh -y

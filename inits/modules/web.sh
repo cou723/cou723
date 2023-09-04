@@ -8,8 +8,7 @@ sudo apt-get install -y ruby ruby-bundler ruby-dev build-essential
 curl https://get.volta.sh | bash
 ## install deno
 curl https://get.volta.sh | bash
-volta install node
-volta install pnpm
-volta install yarn
-volta install npm
+~/.volta/bin/volta install node
+~/.volta/bin/volta install yarn
+~/.volta/bin/volta install npm
 sudo apt install -y pnpm & curl -fsSL https://deno.land/x/install/install.sh | sh & curl https://get.volta.sh | bash & sudo apt install -y

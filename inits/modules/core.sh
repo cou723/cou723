@@ -13,12 +13,10 @@ chsh -s $(which zsh)
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-/home/linuxbrew/.linuxbrew/bin/brew install ghq
+/home/linuxbrew/.linuxbrew/bin/brew install ghq chezmoi
 
-cd /
-sudo sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply cou723
+chezmoi init cou723
 chezmoi apply
-cd -
 
 # c lang
 sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev

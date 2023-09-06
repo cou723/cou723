@@ -2,17 +2,17 @@
 # Hackgen NFを表示用フォントにすることを忘れずに
 
 # rust
-sudo apt install -y gcc
+sudo dnf install -y gcc
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 # utils
-sudo dnf install -y curl zip unzip wget git
+sudo dnf install -y curl zip unzip wget git util-linux-user
+sudo dnf provides '*/chsh' -y
 $HOME/.cargo/bin/cargo install exa bat
 
 # zsh
 sudo dnf install zsh -y
 curl -fsSL https://git.io/zinit-install | sh
-sudo sed --in-place -e '/auth.*required.*pam_shells.so/s/required/sufficient/g' /etc/pam.d/chsh
 chsh -s $(which zsh)
 
 # homebrew

@@ -1,7 +1,7 @@
 #!/bin/sh
 # Hackgen NFを表示用フォントにすることを忘れずに
 
-sudo apt update & sudo apt-get update
+sudo apt update
 sudo apt install git
 
 # zsh

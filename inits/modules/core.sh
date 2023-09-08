@@ -25,6 +25,11 @@ source ~/.bashrc
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+## wry
+sudo apt install libpango1.0-dev pkg-config
+sudo apt-get install libgtk-3-dev
+sudo apt-get install libsoup-3.0-0
+sudo apt-get install libjavascriptcoregtk-4.1-dev
 
 # utils
 sudo apt install -y curl xclip zip unzip wget peco

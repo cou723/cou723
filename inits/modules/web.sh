@@ -9,4 +9,4 @@ curl https://get.volta.sh | bash
 ~/.volta/bin/volta install node
 ~/.volta/bin/volta install yarn
 ~/.volta/bin/volta install npm
-sudo apt install -y pnpm & curl -fsSL https://deno.land/x/install/install.sh | sh & curl https://get.volta.sh | bash & sudo apt install -y
+curl -fsSL https://get.pnpm.io/install.sh | sh -

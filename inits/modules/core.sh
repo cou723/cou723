@@ -32,7 +32,7 @@ sudo apt-get install libsoup-3.0-0
 sudo apt-get install libjavascriptcoregtk-4.1-dev
 
 # utils
-sudo apt install -y curl xclip zip unzip wget peco
+sudo apt install -y curl xclip zip unzip wget fzf
 $HOME/.cargo/bin/cargo install exa bat
 
 # gh

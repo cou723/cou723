@@ -31,6 +31,14 @@ echo '    args = ["--wait"]' >> ~/.config/chezmoi/chezmoi.toml
 
 git config --global --add --bool push.autoSetupRemote true
 
+# openssh
+sudo yum install openssh-server
+sudo sed -i -E 's,^#?Port.*$,Port 60022,' /etc/ssh/sshd_config
+
+# do this command in su
+echo "DO THIS COMMAND IN SU \n sudo echo "sudo ALL=NOPASSWD: /etc/init.d/ssh start" >> /etc/sudoers"
+
+
 #fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install

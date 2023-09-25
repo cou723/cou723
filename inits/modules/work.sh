@@ -42,5 +42,5 @@ echo "DO THIS COMMAND IN SU \n sudo echo "sudo ALL=NOPASSWD: /etc/init.d/ssh sta
 #fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
-sudo mkdir /usr/share/doc/fzf
-sudo cp -r ~/.fzf/doc/* /usr/share/doc/fzf
+sudo mkdir -p /usr/share/doc/fzf/example
+sudo cp ~/fzf/shell/key-bindings.zsh /usr/share/doc/fzf/example

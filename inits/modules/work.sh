@@ -30,3 +30,7 @@ echo '    command = "code"' >> ~/.config/chezmoi/chezmoi.toml
 echo '    args = ["--wait"]' >> ~/.config/chezmoi/chezmoi.toml
 
 git config --global --add --bool push.autoSetupRemote true
+
+#fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install

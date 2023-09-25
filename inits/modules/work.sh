@@ -34,3 +34,5 @@ git config --global --add --bool push.autoSetupRemote true
 #fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+sudo mkdir /usr/share/doc/fzf
+sudo cp -r ~/.fzf/doc/* /usr/share/doc/fzf

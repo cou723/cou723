@@ -6,7 +6,7 @@ sudo dnf install -y gcc
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 # utils
-sudo dnf install -y curl zip unzip wget git util-linux-user
+sudo dnf install -y curl zip unzip wget git util-linux-user net-tools
 sudo dnf provides '*/chsh' -y
 $HOME/.cargo/bin/cargo install exa bat
 

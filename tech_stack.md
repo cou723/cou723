@@ -8,6 +8,7 @@
 - 5: html
 - 3: react-bootstrap
 - 2: express
+- 2: tanstack query
 ## 個人開発経験あり
 - 5: c
 - 5: javascript
@@ -15,27 +16,25 @@
   - 4: fastapi
   - 2: c#
   - 1: .net
-  - 1: rust
+- 2: rust
+- 2: tauri
 - 1: vue.js(v2)
   - 1: nuxt.js(v2)
   - 4: pug
 - 1: electron(v12)
 - 2: css
-- 2: TailWind Css
+- 3: TailWind Css
 - 4: next.js
   ## 使用経験あり
 - 3: php
 - 3: deno
 - 3: c++
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
-- +++++ WRY
 - +++++ Atomic Design 
 - +++++ Astro 
 - +++++ Flutter 
 - +++++ ReactNative 
-- ++++- react × tauri 
 - ++++- T3 stacks 
-- ++++- Tanstack Query
 - +++-- SCSS/SASS 
 - ++--- primer(GitHubな感じのCSSフレームワーク) 
 - +---- Gatsby 
@@ -48,12 +47,12 @@
 - node
 - npm
 - vite
+  - vitest
 - volta
 ## 日常的に使っている
 - shell script(unix tools)
 - make
 - valgrind
-- pnpm
 - ubuntu
 - pyenv
 - venv
@@ -61,8 +60,5 @@
 - github
 - shell(fish,bash,zsh)
 - vscode
-## 使用経験あり
-- yarn
 - docker
 - docker-compose
-- vim

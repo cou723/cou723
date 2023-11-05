@@ -29,6 +29,7 @@
 - 3: php
 - 3: deno
 - 3: c++
+- 1: kotlin
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
 - +++++ Atomic Design 
 - +++++ Astro 
@@ -57,8 +58,9 @@
 - pyenv
 - venv
 - git
-- github
+- GitHub
 - shell(fish,bash,zsh)
 - vscode
 - docker
 - docker-compose
+- Android Studio

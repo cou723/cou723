@@ -24,7 +24,7 @@
 - 1: electron(v12)
 - 2: css
 - 3: TailWind Css
-- 4: next.js
+- 4: Next.js
   ## 使用経験あり
 - 3: php
 - 3: deno

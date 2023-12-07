@@ -11,7 +11,7 @@
     },
     {
         "key": "ctrl+t",
-        "command": "workbench.action.focusActiveEditorGroup",
+        "command": "workbench.action.focusActiveEditorGroup"
     },
     {
         "key": "ctrl+t",
@@ -37,12 +37,14 @@
         "command": "-workbench.action.focusFirstEditorGroup"
     },
     {
-        "key": "ctrl+shift+t",
-        "command": "explorer.newFile"
+        "key": "ctrl+t",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus"
     },
     {
-        "key": "ctrl+shift+d",
-        "command": "explorer.newFolder"
+        "key": "ctrl+d",
+        "command": "explorer.newFolder",
+        "when": "filesExplorerFocus"
     },
     {
         "key": "ctrl+alt+l",
@@ -317,19 +319,9 @@
         "command": "jupyter.notebookeditor.addcellbelow"
     },
     {
-        "key": "ctrl+j",
-        "command": "extension.jumpy-enter",
-        "when": "editorTextFocus && !jumpy.isInJumpMode"
-    },
-    {
         "key": "alt+q",
         "command": "-extension.jumpy-enter",
         "when": "editorTextFocus && !jumpy.isInJumpMode"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "extension.jumpy-exit",
-        "when": "editorTextFocus && jumpy.isInJumpMode"
     },
     {
         "key": "alt+q",
@@ -351,5 +343,144 @@
     {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+left",
+        "command": "-workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+right",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "extension.jumpy-exit",
+        "when": "editorTextFocus && jumpy.isInJumpMode"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "extension.jumpy-enter",
+        "when": "editorTextFocus && !jumpy.isInJumpMode"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "extension.jumpy-exit",
+        "when": "editorTextFocus && jumpy.isInJumpMode"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+        "when": "!activeEditorGroupEmpty"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.terminal.goToRecentDirectory",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+e ctrl+q",
+        "command": "-sqltools.bookmarkSelection",
+        "when": "editorHasSelection && editorTextFocus && !config.sqltools.disableChordKeybindings"
+    },
+    {
+        "key": "ctrl+e ctrl+r",
+        "command": "-sqltools.deleteBookmark",
+        "when": "!config.sqltools.disableChordKeybindings"
+    },
+    {
+        "key": "ctrl+e ctrl+a",
+        "command": "-sqltools.runFromBookmarks",
+        "when": "!config.sqltools.disableChordKeybindings"
+    },
+    {
+        "key": "ctrl+e ctrl+d",
+        "command": "-sqltools.describeTable",
+        "when": "!config.sqltools.disableChordKeybindings"
+    },
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "-sqltools.executeQuery",
+        "when": "editorHasSelection && editorTextFocus && !config.sqltools.disableChordKeybindings"
+    },
+    {
+        "key": "ctrl+e ctrl+s",
+        "command": "-sqltools.showRecords",
+        "when": "!config.sqltools.disableChordKeybindings"
+    },
+    {
+        "key": "ctrl+e ctrl+h",
+        "command": "-sqltools.runFromHistory",
+        "when": "!config.sqltools.disableChordKeybindings"
+    },
+    {
+        "key": "ctrl+e ctrl+b",
+        "command": "-sqltools.formatSql",
+        "when": "editorHasSelection && editorTextFocus && !config.sqltools.disableChordKeybindings && !editorReadonly"
+    },
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "-workbench.action.quickOpen",
+        "when": "!config.sqltools.disableChordKeybindings && !editorHasSelection && !editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "workbench.panel.chat.view.copilot.focus"
     }
 ]

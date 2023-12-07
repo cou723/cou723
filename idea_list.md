@@ -2,28 +2,28 @@
 
 🚧: 開発中
 
-| 済   | 作りたいもの                                                     | 使いたい技術                                | 追加日     | やる気 |
-| :--- | :--------------------------------------------------------------- | :------------------------------------------ | :--------- | :----: |
-| ✅    | デジキャンから自動的に予定をgoogleカレンダーにimportするやつ     | google拡張機能                              | 2022/12/11 |        |
-| ⬜    | 賞味期限マネージャー                                             |                                             | 2022/07/02 | `----` |
-| ⬜    | 使用者の目線に合わせてウィンドウをフォーカスするソフトウェア     |                                             | 2022/05/15 | `o---` |
-| ⬜    | Minecraft Bare Resource Pack Extracter (MCBRPE)                  | rust+tauri                                  | 2022/02/05 | `----` |
-| ⬜    | Minecraft GUI Maker                                              |                                             | 2022/02/05 | `----` |
-| ⬜    | Minecraftの工業MODを模したゲーム                                 | Unity,C#                                    | 2021/11/27 | `o---` |
-| 🚧    | 日本語にシンタックスハイライトをつけてくれる小説ビューア         | rust                                        | 2021/11/11 | `oo--` |
-| ⬜    | NEUTRINOのためのmusicXMLエディタ                                 | electron                                    | 2021/06/29 | `----` |
-| ⬜    | Aviutlの拡張機能マネージャ                                       | electron                                    | 2021/06/29 | `----` |
-| ✅    | マインスイーパー ( https://github.com/cou723/minesweeper )       | Console,C                                   | 2020/11/22 |        |
-| 🚧    | テトリス                                                         | Unity,C#                                    | 2020/09/19 | `oo--` |
-| ⬜    | スマホ音ゲー                                                     | Unity,C#                                    | 2020/09/19 | `o---` |
-| ✅    | 自作csvパーサ ( https://github.com/cou723/csv-lexer )            | C++                                         | 2020/09/19 |        |
-| ✅    | TodoListの作成 ( https://github.com/cou723/re-todo-list )        | ~ReactNative~, ~CouldFlare~, ~WRY~, Nest.js | 2023/04/15 |        |
-| ✅    | C言語風の文法のAlt Htmlの作成 ( https://github.com/cou723/jtml ) | Rust                                        | 2023/05/25 |        |
-| ⬜    | Alis Search                                                      | Next.js,                                    | 2023/05/27 | `oo--` |
-| ⬜    | Astro製ブログ                                                    | Astro, React, CouldFlare,                   | 2023/05/27 | `ooo-` |
-| ⬜    | 画面認識して自動的に翻訳するソフト                               |                                             | 2023/05/29 | `o---` |
-| ⬜    | 納期にたいして忙しさがわかるカレンダー                           |                                             | 2023/06/16 | `oooo` |
-|  ✅   | Memosライクなデスクトップアプリ                                  | Tauri, Rust, ~WRY~                          | 2023/09/01 | `oooo` |
+| 済   | 作りたいもの                                                          | 使いたい技術                                | 追加日     | やる気 |
+| :--- | :-------------------------------------------------------------------- | :------------------------------------------ | :--------- | :----: |
+| ✅    | デジキャンから自動的に予定をgoogleカレンダーにimportするやつ          | google拡張機能                              | 2022/12/11 |        |
+| ⬜    | 賞味期限マネージャー                                                  |                                             | 2022/07/02 | `o---` |
+| ⬜    | 使用者の目線に合わせてウィンドウをフォーカスするソフトウェア          |                                             | 2022/05/15 | `----` |
+| ⬜    | Minecraft Bare Resource Pack Extracter (MCBRPE)                       | rust+tauri                                  | 2022/02/05 | `----` |
+| ⬜    | Minecraft GUI Maker                                                   |                                             | 2022/02/05 | `----` |
+| ⬜    | Minecraftの工業MODを模したゲーム                                      | Unity,C#                                    | 2021/11/27 | `o---` |
+| 🚧    | 日本語にシンタックスハイライトをつけてくれる小説ビューア              | rust                                        | 2021/11/11 | `oo--` |
+| ⬜    | NEUTRINOのためのmusicXMLエディタ                                      | electron                                    | 2021/06/29 | `----` |
+| ⬜    | Aviutlの拡張機能マネージャ                                            | electron                                    | 2021/06/29 | `----` |
+| ✅    | マインスイーパー ( https://github.com/cou723/minesweeper )            | Console,C                                   | 2020/11/22 |        |
+| 🚧    | テトリス                                                              | Unity,C#                                    | 2020/09/19 | `o---` |
+| ⬜    | スマホ音ゲー                                                          | Unity,C#                                    | 2020/09/19 | `o---` |
+| ✅    | 自作csvパーサ ( https://github.com/cou723/csv-lexer )                 | C++                                         | 2020/09/19 |        |
+| ✅    | TodoListの作成 ( https://github.com/cou723/re-todo-list )             | ~ReactNative~, ~CouldFlare~, ~WRY~, Nest.js | 2023/04/15 |        |
+| ✅    | C言語風の文法のAlt Htmlの作成 ( https://github.com/cou723/jtml )      | Rust                                        | 2023/05/25 |        |
+| ⬜    | Alis Search                                                           | Next.js,                                    | 2023/05/27 | `----` |
+| ⬜    | Astro製ブログ                                                         | Astro, React, CouldFlare,                   | 2023/05/27 | `ooo-` |
+| ⬜    | 画面認識して自動的に翻訳するソフト                                    |                                             | 2023/05/29 | `o---` |
+| ⬜    | 納期にたいして忙しさがわかるカレンダー                                |                                             | 2023/06/16 | `oooo` |
+| ✅    | Memosライクなデスクトップアプリ (https://github.com/cou723/cou-memos) | Tauri, Rust, ~WRY~                          | 2023/09/01 |        |
 
 
 ## 詳細

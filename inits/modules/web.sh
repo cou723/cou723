@@ -10,3 +10,6 @@ curl https://get.volta.sh | bash
 ~/.volta/bin/volta install yarn
 ~/.volta/bin/volta install npm
 curl -fsSL https://get.pnpm.io/install.sh | sh -
+
+# tauri
+sudo apt install pkg-config

@@ -380,11 +380,6 @@
         "when": "editorTextFocus && jumpy.isInJumpMode"
     },
     {
-        "key": "ctrl+m",
-        "command": "workbench.view.explorer",
-        "when": "viewContainer.workbench.view.explorer.enabled"
-    },
-    {
         "key": "ctrl+shift+e",
         "command": "-workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
@@ -480,7 +475,65 @@
         "when": "!config.sqltools.disableChordKeybindings && !editorHasSelection && !editorTextFocus"
     },
     {
-        "key": "ctrl+alt+c",
+        "key": "ctrl+k ctrl+c",
         "command": "workbench.panel.chat.view.copilot.focus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-markdown.extension.editing.toggleMath",
+        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "ctrl+m left",
+        "command": "-markdown-table-formatter.moveColumnLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+m right",
+        "command": "-markdown-table-formatter.moveColumnRight",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+oem_1 m",
+        "command": "-jupyter.changeCellToMarkdown",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+oem_1 ctrl+m",
+        "command": "-testing.openOutputPeek"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.view.explorer",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.view.explorer",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorFocus && !terminalFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+oem_comma",
+        "command": "-editor.createFoldingRangeFromSelection",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+oem_comma",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "-workbench.actions.view.problems",
+        "when": "workbench.panel.markers.view.active"
     }
 ]

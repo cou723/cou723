@@ -1,0 +1,33 @@
+{
+  "Function Component": {
+    "prefix": "component",
+    "body": [
+      "interface $1Props {",
+      "\t$2",
+      "}",
+      " ",
+      "const $1: FunctionComponent<$1Props> = ($3) => {",
+      "\treturn ( $0 );",
+      "}",
+      " ",
+      "export default $1;"
+    ],
+    "description": "Function Component"
+  },
+  "tag": {
+    "prefix": "tag",
+    "body": [
+      "<$1>$2</$1>"
+    ],
+    "description": "tag"
+  },
+  "emotion css": {
+    "prefix": "css",
+    "body": [
+      "css={css({",
+      "\t$1",
+      "})}"
+    ],
+    "description": "tag"
+  }
+}

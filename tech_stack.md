@@ -8,23 +8,28 @@
 - 3: react-bootstrap
 - 2: express
 ## 個人開発経験あり
+### c系
 - 5: c
-- 5: javascript
-- 4: python
-  - 4: fastapi
 - 2: c#
   - 1: .net
 - 2: rust
+- 3: tauri
+### python系
+- 4: python
+  - 4: fastapi
+### js系
+- 5: javascript
 - 1: vue.js(v2)
   - 1: nuxt.js(v2)
   - 4: pug
 - 1: electron(v12)
 - 2: css
-- 5: next.js
+- 5: Next.js
 - 2: prisma
-- 3: tauri
 - 3: tailwindcss
 - 3: mui
+- 2: react-hook-form
+- 5: ts-results
   ## 使用経験あり
 - 1: kotlin
 - 1: php

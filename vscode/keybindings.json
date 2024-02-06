@@ -11,11 +11,7 @@
     },
     {
         "key": "ctrl+t",
-<<<<<<< HEAD
-        "command": "workbench.action.focusActiveEditorGroup",
-=======
         "command": "workbench.action.focusActiveEditorGroup"
->>>>>>> origin/main
     },
     {
         "key": "ctrl+t",
@@ -41,14 +37,6 @@
         "command": "-workbench.action.focusFirstEditorGroup"
     },
     {
-<<<<<<< HEAD
-        "key": "ctrl+shift+t",
-        "command": "explorer.newFile"
-    },
-    {
-        "key": "ctrl+shift+d",
-        "command": "explorer.newFolder"
-=======
         "key": "ctrl+t",
         "command": "explorer.newFile",
         "when": "filesExplorerFocus"
@@ -57,7 +45,6 @@
         "key": "ctrl+d",
         "command": "explorer.newFolder",
         "when": "filesExplorerFocus"
->>>>>>> origin/main
     },
     {
         "key": "ctrl+alt+l",
@@ -332,27 +319,11 @@
         "command": "jupyter.notebookeditor.addcellbelow"
     },
     {
-<<<<<<< HEAD
-        "key": "ctrl+j",
-        "command": "extension.jumpy-enter",
-        "when": "editorTextFocus && !jumpy.isInJumpMode"
-    },
-    {
-=======
->>>>>>> origin/main
         "key": "alt+q",
         "command": "-extension.jumpy-enter",
         "when": "editorTextFocus && !jumpy.isInJumpMode"
     },
     {
-<<<<<<< HEAD
-        "key": "ctrl+j",
-        "command": "extension.jumpy-exit",
-        "when": "editorTextFocus && jumpy.isInJumpMode"
-    },
-    {
-=======
->>>>>>> origin/main
         "key": "alt+q",
         "command": "-extension.jumpy-exit",
         "when": "editorTextFocus && jumpy.isInJumpMode"
@@ -372,8 +343,6 @@
     {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
-<<<<<<< HEAD
-=======
     },
     {
         "key": "ctrl+alt+j",
@@ -566,6 +535,5 @@
         "key": "ctrl+shift+m",
         "command": "-workbench.actions.view.problems",
         "when": "workbench.panel.markers.view.active"
->>>>>>> origin/main
     }
 ]

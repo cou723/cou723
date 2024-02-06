@@ -1,7 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="340" height="200" viewBox="0 0 340 200"><style>* {
-          font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif
-<<<<<<< HEAD
-        }</style><rect x="1" y="1" rx="5" ry="5" height="99%" width="99.41176470588235%" stroke="#000000" stroke-width="1" fill="#000000" stroke-opacity="0"></rect><text x="30" y="40" style="font-size: 22px; fill: #9745f5;">Top Languages by Commit</text><g transform="translate(0,40)"><g transform="translate(40,0)"><rect y="18" width="14" height="14" fill="#555555" stroke="#000000" style="stroke-width: 1px;"></rect><rect y="43.2" width="14" height="14" fill="#3178c6" stroke="#000000" style="stroke-width: 1px;"></rect><rect y="68.4" width="14" height="14" fill="#89e051" stroke="#000000" style="stroke-width: 1px;"></rect><rect y="93.60000000000002" width="14" height="14" fill="#41b883" stroke="#000000" style="stroke-width: 1px;"></rect><rect y="118.80000000000001" width="14" height="14" fill="#3572A5" stroke="#000000" style="stroke-width: 1px;"></rect><text x="16.8" y="30" style="fill: #ffffff; font-size: 14px;">C</text><text x="16.8" y="55.2" style="fill: #ffffff; font-size: 14px;">TypeScript</text><text x="16.8" y="80.4" style="fill: #ffffff; font-size: 14px;">Shell</text><text x="16.8" y="105.60000000000002" style="fill: #ffffff; font-size: 14px;">Vue</text><text x="16.8" y="130.8" style="fill: #ffffff; font-size: 14px;">Python</text></g><g transform="translate( 230, 80 )"><g class="arc"><path d="M3.67394039744206e-15,-60A60,60,0,0,1,5.269903725091201,59.768119551549134L3.0741105063032004,34.864736405070325A35,35,0,0,0,2.1431318985078682e-15,-35Z" style="fill: #555555; stroke-width: 2px;" stroke="#000000"></path></g><g class="arc"><path d="M5.269903725091201,59.768119551549134A60,60,0,0,1,-51.466071282967846,-30.84223576034125L-30.021874915064576,-17.991304193532397A35,35,0,0,0,3.0741105063032004,34.864736405070325Z" style="fill: #3178c6; stroke-width: 2px;" stroke="#000000"></path></g><g class="arc"><path d="M-51.466071282967846,-30.84223576034125A60,60,0,0,1,-29.192502424648808,-52.41944107091255L-17.028959747711806,-30.578007291365655A35,35,0,0,0,-30.021874915064576,-17.991304193532397Z" style="fill: #89e051; stroke-width: 2px;" stroke="#000000"></path></g><g class="arc"><path d="M-29.192502424648808,-52.41944107091255A60,60,0,0,1,-15.080343758436847,-58.07394624207463L-8.796867192421495,-33.8764686412102A35,35,0,0,0,-17.028959747711806,-30.578007291365655Z" style="fill: #41b883; stroke-width: 2px;" stroke="#000000"></path></g><g class="arc"><path d="M-15.080343758436847,-58.07394624207463A60,60,0,0,1,-1.1760323155634122e-13,-60L-6.860188507453237e-14,-35A35,35,0,0,0,-8.796867192421495,-33.8764686412102Z" style="fill: #3572A5; stroke-width: 2px;" stroke="#000000"></path></g></g></g></svg>
-=======
-        }</style><rect x="1" y="1" rx="5" ry="5" height="99%" width="99.41176470588235%" stroke="#000000" stroke-width="1" fill="#000000" stroke-opacity="0"></rect><text x="30" y="40" style="font-size: 22px; fill: #9745f5;">Top Languages by Commit</text><g transform="translate(0,40)"><g transform="translate(40,0)"><rect y="18" width="14" height="14" fill="#3178c6" stroke="#000000" style="stroke-width: 1px;"></rect><rect y="43.2" width="14" height="14" fill="#89e051" stroke="#000000" style="stroke-width: 1px;"></rect><rect y="68.4" width="14" height="14" fill="#f34b7d" stroke="#000000" style="stroke-width: 1px;"></rect><rect y="93.60000000000002" width="14" height="14" fill="#555555" stroke="#000000" style="stroke-width: 1px;"></rect><rect y="118.80000000000001" width="14" height="14" fill="#dea584" stroke="#000000" style="stroke-width: 1px;"></rect><text x="16.8" y="30" style="fill: #ffffff; font-size: 14px;">TypeScript</text><text x="16.8" y="55.2" style="fill: #ffffff; font-size: 14px;">Shell</text><text x="16.8" y="80.4" style="fill: #ffffff; font-size: 14px;">C++</text><text x="16.8" y="105.60000000000002" style="fill: #ffffff; font-size: 14px;">C</text><text x="16.8" y="130.8" style="fill: #ffffff; font-size: 14px;">Rust</text></g><g transform="translate( 230, 80 )"><g class="arc"><path d="M3.67394039744206e-15,-60A60,60,0,1,1,-50.93326989540134,31.71438187577055L-29.71107410565078,18.500056094199486A35,35,0,1,0,2.1431318985078682e-15,-35Z" style="fill: #3178c6; stroke-width: 2px;" stroke="#000000"></path></g><g class="arc"><path d="M-50.93326989540134,31.71438187577055A60,60,0,0,1,-38.31141778819312,-46.17613308905933L-22.348327043112654,-26.936077635284608A35,35,0,0,0,-29.71107410565078,18.500056094199486Z" style="fill: #89e051; stroke-width: 2px;" stroke="#000000"></path></g><g class="arc"><path d="M-38.31141778819312,-46.17613308905933A60,60,0,0,1,-23.356206379043527,-55.26741918689099L-13.624453721108724,-32.239327859019745A35,35,0,0,0,-22.348327043112654,-26.936077635284608Z" style="fill: #f34b7d; stroke-width: 2px;" stroke="#000000"></path></g><g class="arc"><path d="M-23.356206379043527,-55.26741918689099A60,60,0,0,1,-8.538890296397167,-59.38928651285595L-4.981019339565014,-34.64375046583264A35,35,0,0,0,-13.624453721108724,-32.239327859019745Z" style="fill: #555555; stroke-width: 2px;" stroke="#000000"></path></g><g class="arc"><path d="M-8.538890296397167,-59.38928651285595A60,60,0,0,1,-6.431252637433369e-14,-60L-3.7515640385027985e-14,-35A35,35,0,0,0,-4.981019339565014,-34.64375046583264Z" style="fill: #dea584; stroke-width: 2px;" stroke="#000000"></path></g></g></g></svg>
->>>>>>> origin/main
+<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="340"
+                height="200"
+                viewBox="0 0 340 200">
+        <style>* {
+                font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif
+                }</style>
+        <rect
+                        x="1"
+                        y="1"
+                        rx="5"
+                        ry="5"
+                        height="99%"
+                        width="99.41176470588235%"
+                        stroke="#000000"
+                        stroke-width="1"
+                        fill="#000000"
+                        stroke-opacity="0"></rect>
+        <text
+                        x="30"
+                        y="40"
+                        style="font-size: 22px; fill: #9745f5;">Top Languages by Commit</text>
+        <g transform="translate(0,40)">
+                <g transform="translate(40,0)">
+                        <rect
+                                        y="18"
+                                        width="14"
+                                        height="14"
+                                        fill="#3178c6"
+                                        stroke="#000000"
+                                        style="stroke-width: 1px;"></rect>
+                        <rect
+                                        y="43.2"
+                                        width="14"
+                                        height="14"
+                                        fill="#89e051"
+                                        stroke="#000000"
+                                        style="stroke-width: 1px;"></rect>
+                        <rect
+                                        y="68.4"
+                                        width="14"
+                                        height="14"
+                                        fill="#f34b7d"
+                                        stroke="#000000"
+                                        style="stroke-width: 1px;"></rect>
+                        <rect
+                                        y="93.60000000000002"
+                                        width="14"
+                                        height="14"
+                                        fill="#555555"
+                                        stroke="#000000"
+                                        style="stroke-width: 1px;"></rect>
+                        <rect
+                                        y="118.80000000000001"
+                                        width="14"
+                                        height="14"
+                                        fill="#dea584"
+                                        stroke="#000000"
+                                        style="stroke-width: 1px;"></rect>
+                        <text
+                                        x="16.8"
+                                        y="30"
+                                        style="fill: #ffffff; font-size: 14px;">TypeScript</text>
+                        <text
+                                        x="16.8"
+                                        y="55.2"
+                                        style="fill: #ffffff; font-size: 14px;">Shell</text>
+                        <text
+                                        x="16.8"
+                                        y="80.4"
+                                        style="fill: #ffffff; font-size: 14px;">C++</text>
+                        <text
+                                        x="16.8"
+                                        y="105.60000000000002"
+                                        style="fill: #ffffff; font-size: 14px;">C</text>
+                        <text
+                                        x="16.8"
+                                        y="130.8"
+                                        style="fill: #ffffff; font-size: 14px;">Rust</text>
+                </g>
+                <g transform="translate( 230, 80 )">
+                        <g class="arc">
+                                <path
+                                                d="M3.67394039744206e-15,-60A60,60,0,1,1,-50.93326989540134,31.71438187577055L-29.71107410565078,18.500056094199486A35,35,0,1,0,2.1431318985078682e-15,-35Z"
+                                                style="fill: #3178c6; stroke-width: 2px;"
+                                                stroke="#000000"></path>
+                        </g>
+                        <g class="arc">
+                                <path
+                                                d="M-50.93326989540134,31.71438187577055A60,60,0,0,1,-38.31141778819312,-46.17613308905933L-22.348327043112654,-26.936077635284608A35,35,0,0,0,-29.71107410565078,18.500056094199486Z"
+                                                style="fill: #89e051; stroke-width: 2px;"
+                                                stroke="#000000"></path>
+                        </g>
+                        <g class="arc">
+                                <path
+                                                d="M-38.31141778819312,-46.17613308905933A60,60,0,0,1,-23.356206379043527,-55.26741918689099L-13.624453721108724,-32.239327859019745A35,35,0,0,0,-22.348327043112654,-26.936077635284608Z"
+                                                style="fill: #f34b7d; stroke-width: 2px;"
+                                                stroke="#000000"></path>
+                        </g>
+                        <g class="arc">
+                                <path
+                                                d="M-23.356206379043527,-55.26741918689099A60,60,0,0,1,-8.538890296397167,-59.38928651285595L-4.981019339565014,-34.64375046583264A35,35,0,0,0,-13.624453721108724,-32.239327859019745Z"
+                                                style="fill: #555555; stroke-width: 2px;"
+                                                stroke="#000000"></path>
+                        </g>
+                        <g class="arc">
+                                <path
+                                                d="M-8.538890296397167,-59.38928651285595A60,60,0,0,1,-6.431252637433369e-14,-60L-3.7515640385027985e-14,-35A35,35,0,0,0,-4.981019339565014,-34.64375046583264Z"
+                                                style="fill: #dea584; stroke-width: 2px;"
+                                                stroke="#000000"></path>
+                        </g>
+                </g>
+        </g>
+</svg>

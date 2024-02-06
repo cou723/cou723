@@ -36,16 +36,16 @@
 - 2: Deno
 - 3: C++
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
-- +++++ Atomic Design 
 - +++++ Elm
 - +++++ Go
 - +++++ Astro 
 - +++++ Flutter 
-- +++++ React Native 
-- ++++- T3 Stacks 
+- ++++- React Native 
+- ++++- Gatsby 
+- ++--- T3 Stacks 
+- +++-- Atomic Design 
 - ++--- SCSS/SASS 
 - ++--- Primer (GitHubな感じのCSSフレームワーク) 
-- +---- Gatsby 
 - +---- SMACSS 
 - +---- OpenGL 
 - +---- Vue.ts × Electron 

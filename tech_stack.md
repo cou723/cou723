@@ -12,27 +12,32 @@
 - 5: javascript
 - 4: python
   - 4: fastapi
-  - 2: c#
+- 2: c#
   - 1: .net
-  - 1: rust
+- 2: rust
 - 1: vue.js(v2)
   - 1: nuxt.js(v2)
   - 4: pug
 - 1: electron(v12)
 - 2: css
-- 4: next.js
+- 5: next.js
+- 2: prisma
+- 3: tauri
+- 3: tailwindcss
+- 3: mui
   ## 使用経験あり
-- 3: php
-- 3: deno
+- 1: kotlin
+- 1: php
+- 2: deno
 - 3: c++
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
-- +++++ react × tauri 
 - +++++ Atomic Design 
+- +++++ elm
+- +++++ go
 - +++++ Astro 
 - +++++ Flutter 
 - +++++ ReactNative 
 - ++++- T3 stacks 
-- +++-- TailWind Css
 - ++--- SCSS/SASS 
 - ++--- primer(GitHubな感じのCSSフレームワーク) 
 - +---- Gatsby 
@@ -47,18 +52,19 @@
 - npm
 - vite
 - volta
-## 日常的に使っている
+- shell(bash,zsh)
+- vscode
+- git
+- gitlab
+- alma linux
 - shell script(unix tools)
+## 日常的に使っている
 - make
 - valgrind
 - pnpm
 - ubuntu
 - pyenv
 - venv
-- git
-- github
-- shell(fish,bash,zsh)
-- vscode
 ## 使用経験あり
 - yarn
 - docker

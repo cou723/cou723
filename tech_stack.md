@@ -1,77 +1,77 @@
 # My tech stacks(lang, framework, library)
 理解度: 技術 
 ## 実務経験あり
-- 5: typescript 
-- 3: react
-  - 2: react-router
-- 5: html
-- 3: react-bootstrap
-- 2: express
+- 5: TypeScript 
+- 3: React
+  - 2: React-Router
+- 5: HTML
+- 3: React-Bootstrap
+- 2: Express
 ## 個人開発経験あり
-### c系
-- 5: c
-- 2: c#
-  - 1: .net
-- 2: rust
-- 3: tauri
-### python系
-- 4: python
-  - 4: fastapi
-### js系
-- 5: javascript
-- 1: vue.js(v2)
-  - 1: nuxt.js(v2)
-  - 4: pug
-- 1: electron(v12)
-- 2: css
+### C系
+- 5: C
+- 2: C#
+  - 1: .NET
+- 2: Rust
+- 3: Tauri
+### Python系
+- 4: Python
+  - 4: FastAPI
+### JS系
+- 5: JavaScript
+- 1: Vue.js (v2)
+  - 1: Nuxt.js (v2)
+  - 4: Pug
+- 1: Electron (v12)
+- 2: CSS
 - 5: Next.js
-- 2: prisma
-- 3: tailwindcss
-- 3: mui
-- 2: react-hook-form
+- 2: Prisma
+- 3: Tailwind CSS
+- 3: MUI
+- 2: React Hook Form
 - 5: ts-results
-  ## 使用経験あり
-- 1: kotlin
-- 1: php
-- 2: deno
-- 3: c++
+## 使用経験あり
+- 1: Kotlin
+- 1: PHP
+- 2: Deno
+- 3: C++
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
 - +++++ Atomic Design 
-- +++++ elm
-- +++++ go
+- +++++ Elm
+- +++++ Go
 - +++++ Astro 
 - +++++ Flutter 
-- +++++ ReactNative 
-- ++++- T3 stacks 
+- +++++ React Native 
+- ++++- T3 Stacks 
 - ++--- SCSS/SASS 
-- ++--- primer(GitHubな感じのCSSフレームワーク) 
+- ++--- Primer (GitHubな感じのCSSフレームワーク) 
 - +---- Gatsby 
 - +---- SMACSS 
 - +---- OpenGL 
-- +---- Vue.ts × electron 
-- +---- wasm(Rust) 
+- +---- Vue.ts × Electron 
+- +---- WASM (Rust) 
 
 # My tech stacks(tool)
 ## 実務経験あり
-- node
+- Node
 - npm
-- vite
-- volta
-- shell(bash,zsh)
-- vscode
-- git
-- gitlab
-- alma linux
-- shell script(unix tools)
+- Vite
+- Volta
+- Shell (Bash, Zsh)
+- VSCode
+- Git
+- GitLab
+- Alma Linux
+- Shell Script (Unix tools)
 ## 日常的に使っている
-- make
-- valgrind
+- Make
+- Valgrind
 - pnpm
-- ubuntu
+- Ubuntu
 - pyenv
 - venv
 ## 使用経験あり
-- yarn
-- docker
-- docker-compose
-- vim
+- Yarn
+- Docker
+- Docker-Compose
+- Vim

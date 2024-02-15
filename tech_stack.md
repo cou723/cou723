@@ -20,6 +20,7 @@
 ### Python系
 - 4: Python
   - 4: FastAPI
+  - 2: Flask
 ### JS系
 - 5: JavaScript
 - 1: Vue.js (v2)

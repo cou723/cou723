@@ -33,6 +33,7 @@
 - 3: Tailwind CSS
 - 2: React Hook Form
 - 5: ts-results
+- 3: Nest.js
 ## 使用経験あり
 - 1: Kotlin
 - 1: PHP

@@ -22,7 +22,7 @@
 | ⬜    | Alis Search                                                           | Next.js,                                    | 2023/05/27 | `----` |
 | ⬜    | Astro製ブログ                                                         | Astro, React, CouldFlare,                   | 2023/05/27 | `ooo-` |
 | ⬜    | 画面認識して自動的に翻訳するソフト                                    |                                             | 2023/05/29 | `o---` |
-| ⬜    | 納期にたいして忙しさがわかるカレンダー                                |                                             | 2023/06/16 | `oooo` |
+| ✅    | 納期にたいして忙しさがわかるカレンダー (https://harmony-calendar.vercel.app/)                               |                                             | 2023/06/16 |        |
 | ✅    | Memosライクなデスクトップアプリ (https://github.com/cou723/cou-memos) | Tauri, Rust, ~WRY~                          | 2023/09/01 |        |
 
 

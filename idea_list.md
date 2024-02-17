@@ -27,6 +27,14 @@
 
 
 ## 詳細
+### Alis Search
+aliasが使えるGoogle検索窓みたいなやつ
+
+- ts array -> typescript array
+- py array -> python3 array
+
+みたいな感じでよく使う単語をaliasとして登録できる
+
 ### 日本語にシンタックスハイライトをつけてくれる小説ビューア
 日本語にシンタックスハイライトをつけたり、固有名詞に色を付けて覚えやすくするviewer
 ### Minecraftの工業MODを模したゲーム

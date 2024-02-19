@@ -2,7 +2,7 @@
 # Hackgen NFを表示用フォントにすることを忘れずに
 
 sudo apt update
-sudo apt install git
+sudo apt install -y build-essential git curl ubuntu-wsl
 
 # zsh
 sudo apt install zsh -y
@@ -19,7 +19,7 @@ chezmoi init cou723
 chezmoi apply
 
 # c lang
-sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev
+sudo apt install -y clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev
 
 source ~/.bashrc
 

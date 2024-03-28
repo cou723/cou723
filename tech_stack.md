@@ -41,6 +41,7 @@
 - 4: zod [Harmony](https://github.com/cou723/busy_level_calendar) 
 - 2: solid-js [re-todo-list](https://github.com/cou723/re-todo-list)
 - 3: dayjs
+- 4: Astro
 ### style系
 - 2: CSS [MinecraftDamageCalcWeb](https://github.com/cou723/MinecraftDamageCalcWeb) [uec-school-department-select-helper](https://github.com/cou723/uec-school-department-select-helper)
   - 3: bootstrap [dhu-class-review-site](https://github.com/cou723/dhu-class-review-site) [const word search](https://github.com/cou723/ConstWordSearch)
@@ -56,20 +57,20 @@
 - 2: Deno
 - 3: C++ [csv-lexer](https://github.com/cou723/csv-lexer)
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
-- +++++ Elm
+- +++++ Open API
 - +++++ Go
-- +++++ Astro 
-- +++++ Flutter 
+- ++++- Elm
+- ++++- Flutter 
 - ++++- React Native 
-- ++++- Gatsby 
-- ++--- T3 Stacks 
 - +++-- Atomic Design 
 - ++--- SCSS/SASS 
-- ++--- Primer (GitHubな感じのCSSフレームワーク) 
+- +---- Primer (GitHubな感じのCSSフレームワーク) 
 - +---- SMACSS 
 - +---- OpenGL 
-- +---- Vue.ts × Electron 
 - +---- WASM (Rust) 
+- +---- Gatsby 
+- +---- T3 Stacks 
+- ----- Vue.ts × Electron 
 
 # My tech stacks(tool)
 ## 実務経験あり

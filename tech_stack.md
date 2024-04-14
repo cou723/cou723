@@ -2,7 +2,7 @@
 理解度: 技術 成果物
 ## 実務経験あり
 - 5: TypeScript [成果物たち](https://github.com/cou723?tab=repositories&q=&type=public&language=typescript&sort=)
-- 3: React [Harmony](https://github.com/cou723/busy_level_calendar) [cou-memos](https://github.com/cou723/cou-memos) [digi-sync](https://github.com/cou723/digi-sync)
+- 3: React [Harmony](https://github.com/cou723/busy_level_calendar) [cou-memos](https://github.com/cou723/cou-memos) [digi-sync](https://github.com/cou723/digi-sync) [PortfolioV4](https://github.com/cou723/portfolioV4)
   - 2: React-Router [cou-memos](https://github.com/cou723/cou-memos)
 - 5: HTML [dhw_portal_auto_login](https://github.com/cou723/dhw_portal_auto_login) [ConstWordSearch](https://github.com/cou723/ConstWordSearch) [MinecraftDamaneCalcWeb](https://github.com/cou723/MinecraftDamageCalcWeb) [uec-school-department-select-helper](https://github.com/cou723/uec-school-department-select-helper)
 - 3: React-Bootstrap
@@ -34,22 +34,23 @@
   - 2: NextAuth.js [Harmony](https://github.com/cou723/busy_level_calendar)
 - 2: Prisma [Harmony](https://github.com/cou723/busy_level_calendar)
 - 2: React Hook Form [Harmony](https://github.com/cou723/busy_level_calendar)
-- 5: ts-results [Harmony](https://github.com/cou723/busy_level_calendar) [re-todo-list](https://github.com/cou723/re-todo-list) [cou-memos](https://github.com/cou723/cou-memos)
+- 5: ts-results [Harmony](https://github.com/cou723/busy_level_calendar) [re-todo-list](https://github.com/cou723/re-todo-list) [cou-memos](https://github.com/cou723/cou-memos) [PortfolioV4](https://github.com/cou723/portfolioV4)
 - 3: Nest.js
-- 4: date-fns [Harmony](https://github.com/cou723/busy_level_calendar) [cou-memos](https://github.com/cou723/cou-memos)
+- 4: date-fns [Harmony](https://github.com/cou723/busy_level_calendar) [cou-memos](https://github.com/cou723/cou-memos) [PortfolioV4](https://github.com/cou723/portfolioV4)
 - 1: yup [digi-sync](https://github.com/cou723/digi-sync)
-- 4: zod [Harmony](https://github.com/cou723/busy_level_calendar) 
+- 4: zod [Harmony](https://github.com/cou723/busy_level_calendar) [PortfolioV4](https://github.com/cou723/portfolioV4)
 - 2: solid-js [re-todo-list](https://github.com/cou723/re-todo-list)
 - 3: dayjs
-- 4: Astro
+- 4: Astro [PortfolioV4](https://github.com/cou723/portfolioV4)
+- 3: testing-library [PortfolioV4](https://github.com/cou723/portfolioV4)
 ### style系
 - 2: CSS [MinecraftDamageCalcWeb](https://github.com/cou723/MinecraftDamageCalcWeb) [uec-school-department-select-helper](https://github.com/cou723/uec-school-department-select-helper)
   - 3: bootstrap [dhu-class-review-site](https://github.com/cou723/dhu-class-review-site) [const word search](https://github.com/cou723/ConstWordSearch)
   - 1: ui-kit [spaceJoin](https://github.com/cou723/spaceJoin)
   - 2: bulma [LocalMemo](https://github.com/cou723/LocalMemo)
   - 2: materialize-css [minecraft-texted-hotbar-gen](https://github.com/cou723/minecraft-texted-hotbar-gen)
-- 3: Tailwind CSS [cou-memos](https://github.com/cou723/cou-memos) [re-todo-list](https://github.com/cou723/re-todo-list)
-  - 3: daisyui [cou-memos](https://github.com/cou723/cou-memos)
+- 3: Tailwind CSS [cou-memos](https://github.com/cou723/cou-memos) [re-todo-list](https://github.com/cou723/re-todo-list) [PortfolioV4](https://github.com/cou723/portfolioV4)
+  - 3: daisyui [cou-memos](https://github.com/cou723/cou-memos) [PortfolioV4](https://github.com/cou723/portfolioV4)
 - 3: Vuetify [uec-school-department-select-helper](https://github.com/cou723/uec-school-department-select-helper)
 ## 使用経験あり
 - 1: Kotlin [TryWidget](https://github.com/cou723/TryWidget)
@@ -92,6 +93,7 @@
 - Ubuntu
 - pyenv
 - venv
+- bun [PortfolioV4](https://github.com/cou723/portfolioV4)
 ## 使用経験あり
 - Yarn
 - Docker [digi-sync](https://github.com/cou723/digi-sync) [re-todo-list](https://github.com/cou723/re-todo-list)

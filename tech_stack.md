@@ -11,6 +11,8 @@
 - 3: Emotion [Harmony](https://github.com/cou723/busy_level_calendar)
 - 4: Storybook [Harmony](https://github.com/cou723/busy_level_calendar) [cou-memos](https://github.com/cou723/cou-memos)
 - 3: tanstack/react-query [cou-memos](https://github.com/cou723/cou-memos) [Harmony](https://github.com/cou723/busy_level_calendar)
+- 3: sass × css modules
+- 2: GraphQL (フロントエンドからの使用のみ)
 ## 個人開発経験あり
 ### C系
 - 5: C [CLogger](https://github.com/cou723/CLogger) [minesweeper](https://github.com/cou723/minesweeper)
@@ -57,21 +59,19 @@
 - 1: PHP
 - 2: Deno
 - 3: C++ [csv-lexer](https://github.com/cou723/csv-lexer)
+- 2: Scala.js
+- 1: Slinky
+- 1: Elm
+- 2: moonbit
+- 2: Go
+- 2: OpenAPI/Swagger × TypeScript
+- 2: Google Apps Script
+- 5: clasp
+- 2: neverthrow
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
-- +++++ Open API
-- +++++ Go
-- ++++- Elm
-- ++++- Flutter 
 - ++++- React Native 
-- +++-- Atomic Design 
-- ++--- SCSS/SASS 
-- +---- Primer (GitHubな感じのCSSフレームワーク) 
-- +---- SMACSS 
+- ++--- Flutter 
 - +---- OpenGL 
-- +---- WASM (Rust) 
-- +---- Gatsby 
-- +---- T3 Stacks 
-- ----- Vue.ts × Electron 
 
 # My tech stacks(tool)
 ## 実務経験あり
@@ -86,6 +86,8 @@
 - Alma Linux
 - Shell Script (Unix tools)
 - SQLite [re-todo-list](https://github.com/cou723/re-todo-list)
+- direnv
+- Docker [digi-sync](https://github.com/cou723/digi-sync) [re-todo-list](https://github.com/cou723/re-todo-list)
 ## 日常的に使っている
 - Make
 - Valgrind
@@ -96,5 +98,4 @@
 - bun [PortfolioV4](https://github.com/cou723/portfolioV4)
 ## 使用経験あり
 - Yarn
-- Docker [digi-sync](https://github.com/cou723/digi-sync) [re-todo-list](https://github.com/cou723/re-todo-list)
 - Vim

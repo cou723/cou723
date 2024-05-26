@@ -43,7 +43,6 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 
 git clone https://github.com/scopatz/nanorc.git ~/.nano
 
-curl -sS https://starship.rs/install.sh | sh -s -- --yes
 
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bash_path > ~/.bash_path
 curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish

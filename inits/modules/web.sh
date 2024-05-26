@@ -21,3 +21,6 @@ sudo apt install -y libwebkit2gtk-4.0-dev \
     libgtk-3-dev \
     libayatana-appindicator3-dev \
     librsvg2-dev
+
+# bun
+curl -fsSL https://bun.sh/install | bash

@@ -13,6 +13,9 @@
 - 3: tanstack/react-query [cou-memos](https://github.com/cou723/cou-memos) [Harmony](https://github.com/cou723/busy_level_calendar)
 - 3: sass × css modules
 - 2: GraphQL (フロントエンドからの使用のみ)
+- 4: Vue.js(Options API, Composition API, script setup) LayerXでのインターンにて
+- 3: Vuex LayerXでのインターンにて
+- 1: go LayerXでのインターンにて
 ## 個人開発経験あり
 ### C系
 - 5: C [CLogger](https://github.com/cou723/CLogger) [minesweeper](https://github.com/cou723/minesweeper)
@@ -54,6 +57,7 @@
 - 3: Tailwind CSS [cou-memos](https://github.com/cou723/cou-memos) [re-todo-list](https://github.com/cou723/re-todo-list) [PortfolioV4](https://github.com/cou723/portfolioV4)
   - 3: daisyui [cou-memos](https://github.com/cou723/cou-memos) [PortfolioV4](https://github.com/cou723/portfolioV4)
 - 3: Vuetify [uec-school-department-select-helper](https://github.com/cou723/uec-school-department-select-helper)
+- 2: Panda CSS
 ## 使用経験あり
 - 1: Kotlin [TryWidget](https://github.com/cou723/TryWidget)
 - 1: PHP
@@ -62,12 +66,11 @@
 - 2: Scala.js
 - 1: Slinky
 - 1: Elm
-- 2: moonbit
-- 2: Go
+- 1: moonbit
 - 2: OpenAPI/Swagger × TypeScript
 - 2: Google Apps Script
 - 5: clasp
-- 2: neverthrow
+- 4: neverthrow
 ## これからやりたい、つかってみたい (+の数は興味の度合い)
 - ++++- React Native 
 - ++--- Flutter 

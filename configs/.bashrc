@@ -1,12 +1,11 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
-#!bin/bash
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
-    *) return ;;
+    *) return;;
 esac
 
 # don't put duplicate lines or lines starting with space in the history.
@@ -38,7 +37,7 @@ fi
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
-    xterm-color | *-256color) color_prompt=yes ;;
+    xterm-color|*-256color) color_prompt=yes;;
 esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
@@ -66,10 +65,11 @@ unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
-    xterm* | rxvt*)
+    xterm*|rxvt*)
         PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
     ;;
-    *) ;;
+    *)
+    ;;
 esac
 
 # enable color support of ls and also add handy aliases
@@ -78,23 +78,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
-
+    
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
-fi
-
-# Add an "alert" alias for long running commands.  Use like so:
-#   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-
-# Alias definitions.
-# You may want to put all your additions into a separate file like
-# ~/.bash_aliases, instead of adding them here directly.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -107,12 +94,6 @@ if ! shopt -oq posix; then
         . /etc/bash_completion
     fi
 fi
-
-
-
-sudo chown cou /dev/kvm
-if [ -f ~/.bash_path ]; then
-    source ~/.path-bashrc
-fi
-
-exec fish
+. "$HOME/.cargo/env"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

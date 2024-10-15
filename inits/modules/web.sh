@@ -13,14 +13,14 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 # tauri
 sudo apt install -y libwebkit2gtk-4.0-dev \
-    build-essential \
-    curl \
-    wget \
-    file \
-    libssl-dev \
-    libgtk-3-dev \
-    libayatana-appindicator3-dev \
-    librsvg2-dev
+build-essential \
+curl \
+wget \
+file \
+libssl-dev \
+libgtk-3-dev \
+libayatana-appindicator3-dev \
+librsvg2-dev
 
 # bun
 curl -fsSL https://bun.sh/install | bash

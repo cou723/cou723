@@ -1,0 +1,47 @@
+ /* コード記法のタブサイズ変更 */
+ /* コード記法のタブサイズ変更 */
+ .line span.code-block code {
+  tab-size: 2;
+}
+
+.line .indent-mark .dot {
+  width: 10px;
+  height: 4px;
+  border-radius: 5px;
+}
+
+.line .indent-mark .c-1+.dot {
+  background-color: #ff0000;
+}
+
+.line .indent-mark .c-2+.dot {
+  background-color: #ff8800;
+}
+
+.line .indent-mark .c-3+.dot {
+  background-color: #fff200;
+}
+
+.line .indent-mark .c-4+.dot {
+  background-color: #5eff00;
+}
+
+.line .indent-mark .c-5+.dot {
+  background-color: #00ff91;
+}
+
+.line .indent-mark .c-6+.dot {
+  background-color: #00aaff;
+}
+
+.line .indent-mark .c-7+.dot {
+  background-color: #2200ff;
+}
+
+.line .indent-mark .c-8+.dot {
+  background-color: #ff00ee;
+}
+
+ button#Templates.tool-btn:hover { text-decoration: none }
+ button#Templates.tool-btn::before { position: absolute; content: '\f067'; font: 900 21px/46px 'Font Awesome 5 Free' }
+ button#Templates.tool-btn img { opacity: 0 }

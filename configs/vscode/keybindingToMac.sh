@@ -8,6 +8,7 @@ output_file="./keybindings_modified.json"
 sed 's/"ctrl/"cmd/g' "$input_file" | sed '$d' > "$output_file"
 echo '    ,{"key": "cmd+right", "command": "workbench.action.navigateForward"}' >> "$output_file"
 echo '    ,{"key": "cmd+left", "command": "workbench.action.navigateBack"}' >> "$output_file"
+echo '    ,{"key": "cmd+space","command": "editor.action.triggerSuggest"},{"key": "cmd+y","command": "redo"}' >> "$output_file"
 echo ']' >> "$output_file"
 
 echo "変換が完了しました。出力ファイル: $output_file"

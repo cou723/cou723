@@ -42,12 +42,12 @@
         "command": "workbench.action.closeWindow"
     },
     {
-        "key": "ctrl+h",
+        "key": "ctrl+shift+h",
         "command": "workbench.action.positionPanelRight",
         "when": "panelPosition=='bottom' && terminalFocus && terminalHasBeenCreated"
     },
     {
-        "key": "ctrl+h",
+        "key": "ctrl+shift+h",
         "command": "workbench.action.positionPanelBottom",
         "when": "panelPosition=='right' && terminalFocus && terminalHasBeenCreated"
     },
@@ -138,12 +138,17 @@
     },
     {
         "key": "ctrl+t",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+t",
         "command": "-workbench.action.showAllSymbols"
     },
     {
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
-        "when": "!editorTextFocus"
+        "when": "!editorTextFocus && !terminalFocus && !filesExplorerFocus"
     },
     //// focus window
     {
@@ -161,6 +166,37 @@
     {
         "key": "ctrl+k ctrl+left",
         "command": "-workbench.action.focusLeftGroup"
+    },
+    /// focus file explorer
+    {
+        "key": "ctrl+m ctrl+alt+c",
+        "command": "-workbench.action.addComment"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+m s",
+        "command": "-saveAll"
+    },
+    {
+        "key": "ctrl+m r",
+        "command": "-workbench.action.files.revealActiveFileInWindows"
+    },
+    {
+        "key": "ctrl+m ctrl+g",
+        "command": "-aiFeedback.action.open"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.focusSideBar",
+        "when": "!sideBarFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "filesExplorerFocus"
     },
     // edit
     //// on file explorer
@@ -182,7 +218,7 @@
     //// on editor
     {
         "key": "ctrl+shift+p",
-        "command": "workbench.action.toggleZenMode",
+        "command": "workbench.action.toggleSidebarVisibility",
     },
     {
         "key": "ctrl+oem_7",
@@ -211,12 +247,22 @@
     },
     {
         "key": "ctrl+right",
-        "command": "cursorWordPartRight",
+        "command": "cursorWordStartRight",
         "when": "editorTextFocus"
     },
     {
         "key": "ctrl+left",
-        "command": "cursorWordPartLeft",
+        "command": "cursorWordStartLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "cursorPageUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorPageDown",
         "when": "editorTextFocus"
     },
     {
@@ -342,5 +388,22 @@
         "key": "ctrl+9",
         "command": "editor.action.jumpToBracket",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+l c",
+        "command": "-extension.copyGitHubLinkToClipboard"
+    },
+    {
+        "key": "ctrl+l g",
+        "command": "-extension.openInGitHub"
+    },
+    {
+        "key": "ctrl+l p",
+        "command": "-extension.openPrGitProvider"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-github.copilot.generate",
+        "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
     }
 ]

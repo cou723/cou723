@@ -33,7 +33,7 @@ sudo apt-get install libjavascriptcoregtk-4.1-dev
 
 # utils
 sudo apt install -y curl xclip zip unzip wget fzf
-$HOME/.cargo/bin/cargo install exa bat
+$HOME/.cargo/bin/cargo install eza bat
 
 # gh
 type -p curl >/dev/null || sudo apt install curl -y

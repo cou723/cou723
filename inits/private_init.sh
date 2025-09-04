@@ -9,6 +9,8 @@ git config --global --add --bool push.autoSetupRemote true
 git config --global user.email "courange.c@gmail.com"
 git config --global user.name "cou723"
 
+sudo apt install socat
+
 # WSLg用日本語化
 cat << 'EOS' | sudo tee /etc/fonts/local.conf
 <?xml version="1.0"?>

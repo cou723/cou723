@@ -1,5 +1,3 @@
 #!/bin/sh
-sudo apt install -y build-essential libffi-dev libssl-dev zlib1g-dev liblzma-dev libbz2-dev libreadline-dev libsqlite3-dev libopencv-dev tk-dev git python3-venv
-git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-pyenv install 3.11.4
-pip3 install numpy matplotlib pandas 
+curl -LsSf https://astral.sh/uv/install.sh | sh
+

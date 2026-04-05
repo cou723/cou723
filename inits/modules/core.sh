@@ -2,7 +2,7 @@
 # Hackgen NFを表示用フォントにすることを忘れずに
 
 sudo apt update
-sudo apt install -y build-essential git curl ubuntu-wsl
+sudo apt install -y build-essential git curl ubuntu-wsl xclip zip unzip wget fzf eza
 
 # zsh
 sudo apt install zsh -y
@@ -26,14 +26,7 @@ source ~/.bashrc
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ## wry
-sudo apt install libpango1.0-dev pkg-config
-sudo apt-get install libgtk-3-dev
-sudo apt-get install libsoup-3.0-0
-sudo apt-get install libjavascriptcoregtk-4.1-dev
-
-# utils
-sudo apt install -y curl xclip zip unzip wget fzf
-$HOME/.cargo/bin/cargo install exa bat
+sudo apt install libpango1.0-dev pkg-config libgtk-3-dev libsoup-3.0-0 libjavascriptcoregtk-4.1-dev
 
 # gh
 type -p curl >/dev/null || sudo apt install curl -y

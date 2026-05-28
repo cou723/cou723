@@ -22,7 +22,6 @@
     chezmoi
 
     # C/C++
-    clang
     clang-tools
     gdb
     cmake
@@ -45,7 +44,6 @@
     # ビルドツール
     gcc
     gnumake
-    binutils
   ];
 
   programs.direnv = {

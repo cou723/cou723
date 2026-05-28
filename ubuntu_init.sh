@@ -1,58 +1,41 @@
-touch ~/.path-bashrc
-PATHFILE=~/.bash_path
-
 #!/bin/sh
-sudo apt-get -y -qq install -y ubuntu-wsl & sudo apt update & sudo apt-get update
+# WSL Ubuntu 初期セットアップ (Nix ベース) - ローカル実行用
+# 前提: このリポジトリをクローン済み、Nix がインストール済み
+# Nix インストール: curl -L https://nixos.org/nix/install | sh -s -- --no-daemon
 
-# rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+set -e
 
-# c lang
-sudo apt install -y build-essential clang gdb cmake valgrind clang-format manpages-ja manpages-ja-dev language-pack-ja libreadline-dev libtool-bin libtinfo-dev
+REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-# utils
-sudo apt install -y curl xclip zip unzip fish wget
-cargo install exa
+# Nix flakes を有効化
+mkdir -p ~/.config/nix
+grep -q "experimental-features" ~/.config/nix/nix.conf 2>/dev/null || \
+  echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf
 
-# python
-apt-get install libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
-curl https://pyenv.run | bash
-pyenv install python3.10
+# インストール直後に PATH が通っていない場合のフォールバック
+. /etc/profile.d/nix.sh 2>/dev/null || true
 
-# ruby
-sudo apt-get install -y ruby ruby-bundler ruby-dev build-essential
+# home-manager でパッケージ一括インストール (ローカルの flake.nix を使用)
+nix run home-manager/master -- switch --flake "${REPO_DIR}#coura"
 
-# web
-## install volta
-curl https://get.volta.sh | bash
-## install deno
-curl https://get.volta.sh | bash
-volta install node
-volta install pnpm
-volta install yarn
-volta install npm
-sudo apt install -y pnpm & curl -fsSL https://deno.land/x/install/install.sh | sh & curl https://get.volta.sh | bash & sudo apt install -y
+# git 設定
+git config --global push.default current
+git config --global --add --bool push.autoSetupRemote true
+git config --global user.email "courange.c@gmail.com"
+git config --global user.name "cou723"
 
-# gh
-type -p curl >/dev/null || sudo apt install curl -y
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
-&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
-&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
-&& sudo apt update \
-&& sudo apt install gh -y
+# chezmoi で dotfiles を適用
+chezmoi init cou723
+chezmoi apply
 
-git clone https://github.com/scopatz/nanorc.git ~/.nano
+# WSL: SSH鍵のコピー (Windows -> WSL)
+sh "${REPO_DIR}/inits/modules/copy-sshkey.sh"
 
+# zsh をデフォルトシェルに設定
+sudo sed -i -e '/auth.*required.*pam_shells.so/s/required/sufficient/g' /etc/pam.d/chsh
+chsh -s "$(which zsh)"
 
-curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.bash_path > ~/.bash_path
-curl https://raw.githubusercontent.com/cou723/cou723/main/configs/config.fish > ~/.config/fish/config.fish
-curl https://raw.githubusercontent.com/cou723/cou723/main/configs/.vimrc > ~/.vimrc
+# WSLg: 日本語フォント設定 + 追加パッケージ
+sh "${REPO_DIR}/inits/modules/wslg"
 
-# Hackgen NFを表示用フォントにすることを忘れずに
-
-echo "if [ -f ~/.bash_path ]; then
-    source ~/.path-bashrc
-fi" >> ~/.bashrc
-
-
-echo "exec fish" >> ~/.bashrc
+echo "セットアップ完了! Hackgen NF フォントを Windows にインストールしてください。"

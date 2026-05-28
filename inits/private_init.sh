@@ -10,8 +10,8 @@ else
   echo "  -> インストール済み: $(nix --version)"
 fi
 
-. /etc/profile.d/nix.sh 2>/dev/null || true
-. ~/.nix-profile/etc/profile.d/nix.sh 2>/dev/null || true
+[ -f /etc/profile.d/nix.sh ] && . /etc/profile.d/nix.sh || true
+[ -f ~/.nix-profile/etc/profile.d/nix.sh ] && . ~/.nix-profile/etc/profile.d/nix.sh || true
 
 if ! command -v nix > /dev/null 2>&1; then
   echo "ERROR: nix コマンドが見つかりません。シェルを再起動して再実行してください。"

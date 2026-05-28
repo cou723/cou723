@@ -19,6 +19,7 @@
 
     # 開発ツール
     gh
+    ghq
     chezmoi
 
     # C/C++

@@ -44,8 +44,9 @@ git config --global user.name "cou723"
 chezmoi init cou723
 chezmoi apply
 
-sudo sed -i -e '/auth.*required.*pam_shells.so/s/required/sufficient/g' /etc/pam.d/chsh
-chsh -s "$(which zsh)"
+ZSH_PATH="$(which zsh)"
+grep -qF "$ZSH_PATH" /etc/shells || echo "$ZSH_PATH" | sudo tee -a /etc/shells
+chsh -s "$ZSH_PATH"
 
 echo "[6/6] WSLg: 日本語フォント設定..."
 sh "${REPO_DIR}/inits/modules/wslg"

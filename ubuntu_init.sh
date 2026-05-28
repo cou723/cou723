@@ -8,7 +8,7 @@ echo "[1/6] Nix のインストール確認..."
 if ! command -v nix > /dev/null 2>&1; then
   echo "  -> Nix をインストール中..."
   curl -L https://nixos.org/nix/install | sh -s -- --no-daemon
-  . ~/.nix-profile/etc/profile.d/nix.sh
+  . ~/.nix-profile/etc/profile.d/nix.sh 2>/dev/null || true
 else
   echo "  -> インストール済み: $(nix --version)"
 fi

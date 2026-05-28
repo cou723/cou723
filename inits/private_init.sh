@@ -43,7 +43,7 @@ chezmoi apply
 
 ZSH_PATH="$(which zsh)"
 grep -qF "$ZSH_PATH" /etc/shells || echo "$ZSH_PATH" | sudo tee -a /etc/shells
-chsh -s "$ZSH_PATH"
+sudo usermod -s "$ZSH_PATH" "$USER"
 
 echo "[6/6] WSLg: 日本語フォント設定..."
 curl -fsSL https://raw.githubusercontent.com/cou723/cou723/main/inits/modules/wslg | sh

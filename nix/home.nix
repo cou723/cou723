@@ -8,19 +8,20 @@
   home.packages = with pkgs; [
     # ユーティリティ
     curl
+    delta
     wget
     xclip
     zip
     unzip
     fzf
     eza
-    socat
     zsh
 
     # 開発ツール
     gh
     ghq
     chezmoi
+    claude-code
 
     # C/C++
     clang-tools

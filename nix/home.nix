@@ -16,6 +16,7 @@
     fzf
     eza
     zsh
+    deno
 
     # 開発ツール
     gh
